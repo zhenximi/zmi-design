@@ -1,0 +1,2395 @@
+@import url('mettel-metone-blessed2.css?z=1456857710688');
+@import url('mettel-metone-blessed1.css?z=1456857710688');
+
+.unvisuallyhidden,
+.mettel-product-add-option-group-modal .mettel-new-option-group-type-radio.cas-active,
+.visuallyhidden.cas-active,
+.mettel-region-filter-input.cas-active,
+.mettel-breadcrumbs-current-position-text.cas-active,
+.mettel-checkbox-ko .mettel-checkbox.cas-active,
+.mettel-grid.mettel-grid-radio-buttons-to-select .mettel-radio-label .mettel-radio-label-text.cas-active,
+.mettel-hierarchy-selected-node.mettel-state-ellipsis .mettel-hierarchy-selected-node-link .mettel-hierarchy-selected-node-link-name.cas-active,
+.mettel-hierarchy-selected-node.mettel-state-ellipsis .mettel-hierarchy-selected-node-link .mettel-hierarchy-selected-node-link-count.cas-active,
+.mettel-hierarchy-node-status > .mettel-accessible-text.cas-active,
+.mettel-thumbnail-product .mettel-product-image.cas-active,
+.mettel-shopping-cart-product-row.mettel-state-selected .mettel-quantity-column-text.cas-active,
+.mettel-favorite-link-note > .mettel-accessible-text.cas-active,
+.js .mettel-report-subscribe-submit-button.cas-active,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-subscribe-toggle .mettel-toggle-checkbox.cas-active,
+.mettel-ticket-block-list > li.mettel-state-hidden.cas-active,
+.green-toggle .mettel-toggle-checkbox.cas-active,
+.blue-toggle .mettel-toggle-checkbox.cas-active,
+.mettel-weather-history-table .mettel-weather-history-caption.cas-active,
+.mettel-weather-history-table .mettel-weather-history-header.cas-active,
+.mettel-accessible-text.cas-active,
+.mettel-checkbox-default-ko .mettel-checkbox.cas-active,
+.mettel-checkbox-green-ko .mettel-checkbox.cas-active,
+.mettel-hierarchy-node-status > .mettel-dashboard-configuration-link-text.cas-active,
+.mettel-favorite-link-note > .mettel-dashboard-configuration-link-text.cas-active,
+.mettel-dashboard-configuration-link-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-dashboard-help-desk-link-text.cas-active,
+.mettel-favorite-link-note > .mettel-dashboard-help-desk-link-text.cas-active,
+.mettel-dashboard-help-desk-link-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notifications-toggle-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notifications-toggle-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notifications-toggle-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notifications-close-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notifications-close-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notifications-close-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notification-more-button-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notification-more-button-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notification-more-button-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notification-indicator-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notification-indicator-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notification-indicator-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notifications-filter-title.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notifications-filter-title.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notifications-filter-title.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notification-filter-chat-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notification-filter-chat-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-chat-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notification-filter-alert-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notification-filter-alert-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-alert-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notification-filter-task-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notification-filter-task-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-task-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-help-desk-notifications-panel .mettel-notification-filter-information-text.cas-active,
+.mettel-favorite-link-note > .mettel-help-desk-notifications-panel .mettel-notification-filter-information-text.cas-active,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-information-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-grid-products .mettel-grid-head .mettel-grid-column-visible .mettel-grid-cell-inner.cas-active,
+.mettel-favorite-link-note > .mettel-grid-products .mettel-grid-head .mettel-grid-column-visible .mettel-grid-cell-inner.cas-active,
+.mettel-grid-products .mettel-grid-head .mettel-grid-column-visible .mettel-grid-cell-inner.cas-active,
+.mettel-product-sku .mettel-sku-attribute-checkbox .mettel-checkbox.cas-active,
+.mettel-product-sku .mettel-pricing-group-item-checkbox .mettel-checkbox.cas-active,
+.mettel-product-select-pricing-options-modal .mettel-pricing-group-item-checkbox .mettel-checkbox.cas-active,
+.mettel-product-preview-option-groups-container .mettel-preview-option-checkbox .mettel-checkbox.cas-active,
+.mettel-report-link > .mettel-accessible-text.cas-active,
+.mettel-hierarchy-node-status > .mettel-ticket-snapshot .mettel-ticket-snapshot-title.cas-active,
+.mettel-favorite-link-note > .mettel-ticket-snapshot .mettel-ticket-snapshot-title.cas-active,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-title.cas-active,
+.mettel-hierarchy-node-status > .mettel-ticket-snapshot .mettel-ticket-snapshot-issues-title.cas-active,
+.mettel-favorite-link-note > .mettel-ticket-snapshot .mettel-ticket-snapshot-issues-title.cas-active,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-issues-title.cas-active,
+.mettel-default-toggle .mettel-toggle-checkbox.cas-active,
+.mettel-green-toggle .mettel-toggle-checkbox.cas-active,
+.mettel-blue-toggle .mettel-toggle-checkbox.cas-active,
+.mettel-hierarchy-node-status > .mettel-variance .mettel-variance-location-score-text.cas-active,
+.mettel-favorite-link-note > .mettel-variance .mettel-variance-location-score-text.cas-active,
+.mettel-variance .mettel-variance-location-score-text.cas-active,
+.mettel-bill-details .mettel-feature-filter .mettel-checkbox.cas-active,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-subscribers-notify-checkbox .mettel-checkbox.cas-active,
+.mettel-notes-container .mettel-new-note-subscribers-notify-checkbox .mettel-checkbox.cas-active,
+.mettel-sticky-notes-container .mettel-new-note-subscribers-notify-checkbox .mettel-checkbox.cas-active,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-line-checkbox .mettel-checkbox.cas-active,
+.mettel-notes-container .mettel-new-note-line-checkbox .mettel-checkbox.cas-active,
+.mettel-sticky-notes-container .mettel-new-note-line-checkbox .mettel-checkbox.cas-active,
+.mettel-ticket-note-list-container .mettel-note-filter-checkbox .mettel-checkbox.cas-active,
+.mettel-tree-primary-branch-checkbox .mettel-checkbox.cas-active,
+.mettel-tree-branch-checkbox .mettel-checkbox.cas-active {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.clearfix,
+.mettel-inventory-location-asset-info-list {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after,
+.mettel-inventory-location-asset-info-list:before,
+.mettel-inventory-location-asset-info-list:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.mettel-inventory-location-asset-info-list:after {
+  clear: both;
+}
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.larger-paragraph {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 26px;
+  line-height: 2.6rem;
+}
+.mettel-call-performance-text,
+.mettel-call-performance .mettel-category-title,
+.mettel-call-performance .mettel-call-performance-time-label-five-days,
+.mettel-call-performance .mettel-call-performance-time-label-one-day {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #0c92c2;
+}
+.mettel-sparkline-last-marker circle,
+.mettel-grid-cell-sparkline circle,
+.mettel-open-tickets .mettel-open-ticket-module-graph circle,
+.mettel-variance .mettel-variance-location-history-graph-container circle {
+  display: none;
+}
+.mettel-sparkline-last-marker circle:last-child,
+.mettel-grid-cell-sparkline circle:last-child,
+.mettel-open-tickets .mettel-open-ticket-module-graph circle:last-child,
+.mettel-variance .mettel-variance-location-history-graph-container circle:last-child {
+  display: inherit;
+}
+.mettel-order-info .mettel-fieldset,
+.mettel-order-summary-container .mettel-fieldset,
+.mettel-ticket-overview .mettel-fieldset {
+  border-bottom: 1px solid #cccccc;
+}
+.mettel-order-info .mettel-legend,
+.mettel-order-summary-container .mettel-legend,
+.mettel-ticket-overview .mettel-legend {
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+.mettel-order-info .mettel-legend-name-container,
+.mettel-order-summary-container .mettel-legend-name-container,
+.mettel-ticket-overview .mettel-legend-name-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.mettel-order-info .mettel-edit-order-section-button-container,
+.mettel-order-summary-container .mettel-edit-order-section-button-container,
+.mettel-ticket-overview .mettel-edit-order-section-button-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+.mettel-order-info .mettel-edit-order-section-button,
+.mettel-order-summary-container .mettel-edit-order-section-button,
+.mettel-ticket-overview .mettel-edit-order-section-button {
+  color: #2cb0ed;
+  background-color: #ffffff;
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid #2cb0ed;
+  min-width: 64px;
+  height: 24px;
+}
+.mettel-order-info .mettel-edit-order-section-button:hover,
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-hover,
+.mettel-order-summary-container .mettel-edit-order-section-button:hover,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-hover,
+.mettel-ticket-overview .mettel-edit-order-section-button:hover,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-hover {
+  background-color: #f2f2f2;
+}
+.mettel-order-info .mettel-edit-order-section-button:active,
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-active,
+.mettel-order-summary-container .mettel-edit-order-section-button:active,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-active,
+.mettel-ticket-overview .mettel-edit-order-section-button:active,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-active {
+  background-color: #e0e0e0;
+}
+.mettel-order-info .mettel-edit-order-section-button:disabled,
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-disabled,
+.mettel-order-summary-container .mettel-edit-order-section-button:disabled,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-disabled,
+.mettel-ticket-overview .mettel-edit-order-section-button:disabled,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-disabled {
+  color: #a1dcf7;
+  cursor: default;
+}
+.mettel-order-info .mettel-edit-order-section-button:disabled:hover,
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-disabled:hover,
+.mettel-order-summary-container .mettel-edit-order-section-button:disabled:hover,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-disabled:hover,
+.mettel-ticket-overview .mettel-edit-order-section-button:disabled:hover,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-disabled:hover {
+  background: #ffffff;
+}
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-selected,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-selected,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-selected {
+  color: #ffffff;
+  background-color: #8ac008;
+}
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-disabled,
+.mettel-order-info .mettel-edit-order-section-button.mettel-state-disabled:hover,
+.mettel-order-info .mettel-edit-order-section-button:disabled,
+.mettel-order-info .mettel-edit-order-section-button:disabled:hover,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-disabled,
+.mettel-order-summary-container .mettel-edit-order-section-button.mettel-state-disabled:hover,
+.mettel-order-summary-container .mettel-edit-order-section-button:disabled,
+.mettel-order-summary-container .mettel-edit-order-section-button:disabled:hover,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-disabled,
+.mettel-ticket-overview .mettel-edit-order-section-button.mettel-state-disabled:hover,
+.mettel-ticket-overview .mettel-edit-order-section-button:disabled,
+.mettel-ticket-overview .mettel-edit-order-section-button:disabled:hover {
+  color: #abe0f8;
+  border-color: #abe0f8;
+}
+.mettel-order-info .mettel-order-details,
+.mettel-order-summary-container .mettel-order-details,
+.mettel-ticket-overview .mettel-order-details {
+  *zoom: 1;
+  margin: 0;
+  padding: 24px 0;
+}
+.mettel-order-info .mettel-order-details:before,
+.mettel-order-info .mettel-order-details:after,
+.mettel-order-summary-container .mettel-order-details:before,
+.mettel-order-summary-container .mettel-order-details:after,
+.mettel-ticket-overview .mettel-order-details:before,
+.mettel-ticket-overview .mettel-order-details:after {
+  content: " ";
+  display: table;
+}
+.mettel-order-info .mettel-order-details:after,
+.mettel-order-summary-container .mettel-order-details:after,
+.mettel-ticket-overview .mettel-order-details:after {
+  clear: both;
+}
+.mettel-order-info .mettel-order-detail,
+.mettel-order-summary-container .mettel-order-detail,
+.mettel-ticket-overview .mettel-order-detail {
+  width: 192px;
+  padding-right: 22px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  clear: left;
+  text-align: right;
+  color: #808080;
+  line-height: 14px;
+  line-height: 1.4rem;
+}
+.mettel-order-info .mettel-order-value,
+.mettel-order-summary-container .mettel-order-value,
+.mettel-ticket-overview .mettel-order-value {
+  width: 568px;
+  min-height: 16px;
+  margin-left: 0;
+  float: left;
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  line-height: 16px;
+  line-height: 1.6rem;
+}
+.mettel-order-info .mettel-review-cart-items-table-container,
+.mettel-order-summary-container .mettel-review-cart-items-table-container,
+.mettel-ticket-overview .mettel-review-cart-items-table-container {
+  padding-bottom: 24px;
+  position: relative;
+}
+.mettel-order-info .mettel-edit-order-items-button-container,
+.mettel-order-summary-container .mettel-edit-order-items-button-container,
+.mettel-ticket-overview .mettel-edit-order-items-button-container {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.mettel-catalog-form-elements .mettel-label,
+.mettel-customer-catalog-content-inner .mettel-label,
+.mettel-ticket-overview .mettel-label {
+  width: 192px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+}
+.mettel-catalog-form-elements .mettel-input,
+.mettel-catalog-form-elements .mettel-search-input,
+.mettel-catalog-form-elements .mettel-textarea,
+.mettel-catalog-form-elements .mettel-search .mettel-search-input,
+.mettel-catalog-form-elements .mettel-product-catalog-textarea,
+.mettel-customer-catalog-content-inner .mettel-input,
+.mettel-customer-catalog-content-inner .mettel-search-input,
+.mettel-ticket-overview .mettel-input,
+.mettel-ticket-overview .mettel-search-input,
+.mettel-catalog-form-elements .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-catalog-form-elements .mettel-product-subsection-item .mettel-option-text,
+.mettel-catalog-form-elements .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-catalog-form-elements .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-catalog-form-elements .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-catalog-form-elements .mettel-notes-container .mettel-new-note-text,
+.mettel-catalog-form-elements .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-catalog-form-elements .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  display: inline-block;
+  width: 280px;
+}
+.mettel-catalog-form-elements .mettel-combo-box,
+.mettel-customer-catalog-content-inner .mettel-combo-box,
+.mettel-ticket-overview .mettel-combo-box {
+  width: 280px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mettel-catalog-form-elements .mettel-radio-label-text,
+.mettel-customer-catalog-content-inner .mettel-radio-label-text,
+.mettel-ticket-overview .mettel-radio-label-text {
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+}
+.mettel-catalog-form-elements .mettel-toggle-and-label-label,
+.mettel-customer-catalog-content-inner .mettel-toggle-and-label-label,
+.mettel-ticket-overview .mettel-toggle-and-label-label {
+  width: 192px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  color: #808080;
+  text-align: right;
+}
+.mettel-catalog-form-elements .mettel-button,
+.mettel-catalog-form-elements .mettel-button-icon-text,
+.mettel-catalog-form-elements .mettel-inline-button,
+.mettel-customer-catalog-content-inner .mettel-button,
+.mettel-catalog-form-elements .mettel-ticket-note-list-container .mettel-note-list-line-filter-all,
+.mettel-ticket-overview .mettel-button,
+.mettel-catalog-form-elements .mettel-button-icon-text-reports,
+.mettel-catalog-form-elements .mettel-button-icon-text-help-desk,
+.mettel-catalog-form-elements .mettel-button-icon-text-bills,
+.mettel-catalog-form-elements .mettel-button-icon-text-orders,
+.mettel-catalog-form-elements .mettel-button-icon-text-download,
+.mettel-catalog-form-elements .mettel-button-icon-text-assets,
+.mettel-catalog-form-elements .mettel-button-icon-text-contacts,
+.mettel-catalog-form-elements .mettel-button-icon-text-chatbubble,
+.mettel-catalog-form-elements .mettel-button-icon-text-edit,
+.mettel-catalog-form-elements .mettel-button-icon-text-back,
+.mettel-catalog-form-elements .mettel-button-icon-text-scrolling {
+  min-width: 64px;
+}
+.mettel-catalog-form-elements .mettel-fieldgroup,
+.mettel-customer-catalog-content-inner .mettel-fieldgroup,
+.mettel-ticket-overview .mettel-fieldgroup {
+  margin: 0;
+  border: 0;
+}
+.mettel-catalog-form-elements .mettel-fieldset,
+.mettel-customer-catalog-content-inner .mettel-fieldset,
+.mettel-ticket-overview .mettel-fieldset {
+  padding: 0;
+  margin: 0;
+}
+.mettel-catalog-form-elements .mettel-legend,
+.mettel-customer-catalog-content-inner .mettel-legend,
+.mettel-ticket-overview .mettel-legend {
+  padding: 20px 0 4px;
+  border-bottom-color: #ebebeb;
+  margin: 0 0 16px;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+}
+.mettel-catalog-form-elements .access-hours-list,
+.mettel-customer-catalog-content-inner .access-hours-list,
+.mettel-ticket-overview .access-hours-list {
+  list-style: none;
+  margin: 0;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  color: #333333;
+}
+.mettel-catalog-form-elements .mettel-form-row .access-hours-list,
+.mettel-customer-catalog-content-inner .mettel-form-row .access-hours-list,
+.mettel-ticket-overview .mettel-form-row .access-hours-list,
+.mettel-catalog-form-elements .mettel-form-row-submit .access-hours-list {
+  padding: 8px 16px 0 12px;
+}
+.mettel-catalog-form-elements .access-hours-item,
+.mettel-customer-catalog-content-inner .access-hours-item,
+.mettel-ticket-overview .access-hours-item {
+  margin: 0;
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/proximanova/ProximaNova-Reg-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-Reg-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-Reg-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-Reg-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-Reg-webfont.svg#webfonttLdMzI8n') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaRegularItalic';
+  src: url('../fonts/proximanova/ProximaNova-RegIt-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-RegIt-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-RegIt-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-RegIt-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-RegIt-webfont.svg#webfontjQHW7Ll4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/proximanova/ProximaNova-Bold-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-Bold-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-Bold-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-Bold-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-Bold-webfont.svg#webfontgrewrCss') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaBoldItalic';
+  src: url('../fonts/proximanova/ProximaNova-BoldIt-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-BoldIt-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-BoldIt-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-BoldIt-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-BoldIt-webfont.svg#webfontehArT0T9') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaSemiBold';
+  src: url('../fonts/proximanova/ProximaNova-Sbold-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-Sbold-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-Sbold-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-Sbold-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-Sbold-webfont.svg#webfont0AWgWg75') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaSemiBoldItalic';
+  src: url('../fonts/proximanova/ProximaNova-SboldIt-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-SboldIt-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-SboldIt-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-SboldIt-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-SboldIt-webfont.svg#webfont3FayMzgX') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaThin';
+  src: url('../fonts/proximanova/ProximaNova-Thin-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNova-Thin-webfont.eot?iefix') format('eot'), url('../fonts/proximanova/ProximaNova-Thin-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNova-Thin-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNova-Thin-webfont.svg#webfontFl2IlMVK') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaSoftRegular';
+  src: url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.svg#proxima_nova_softregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaSoftRegular';
+  src: url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.eot');
+  src: url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.woff') format('woff'), url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.ttf') format('truetype'), url('../fonts/proximanova/ProximaNovaSoft-Regular-webfont.svg#proxima_nova_softregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SSGizmo";
+  src: url('../fonts/ss-gizmo/ss-gizmo.eot');
+  src: url('../fonts/ss-gizmo/ss-gizmo.eot?#iefix') format('embedded-opentype'), url('../fonts/ss-gizmo/ss-gizmo.woff') format('woff'), url('../fonts/ss-gizmo/ss-gizmo.ttf') format('truetype'), url('../fonts/ss-gizmo/ss-gizmo.svg#SSGizmo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+.mettel-page {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'ProximaNovaRegular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #333333;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.mettel-page.mettel-state-fixed {
+  /*overflow: hidden;*/
+}
+.mettel-page.mettel-state-fixed .mettel-modal-content {
+  overflow: hidden;
+}
+.mettel-page.full-screen {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.mettel-notifications-open .mettel-tooltip.mettel-state-active {
+  z-index: 9999;
+}
+.mettel-page-inner {
+  position: absolute;
+  top: 45px;
+  bottom: 32px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.mettel-notifications-open .mettel-page-inner {
+  right: 192px;
+}
+.mettel-notifications-open-static .mettel-page-inner {
+  -webkit-transition: none;
+  transition: none;
+}
+.mettel-page-title {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: 'ProximaNovaThin', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  color: #333333;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.mettel-state-hidden {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.mettel-link,
+.mettel-link,
+a.mettel-link-forgot-password,
+.mettel-link-forgot-password {
+  color: #2cb0ed;
+  text-decoration: none;
+}
+a.mettel-link:hover,
+.mettel-link:hover,
+a.mettel-link-forgot-password:hover,
+.mettel-link-forgot-password:hover {
+  text-decoration: underline;
+}
+a.mettel-link:active,
+.mettel-link:active,
+a.mettel-link-forgot-password:active,
+.mettel-link-forgot-password:active {
+  color: #0091D4;
+}
+a.mettel-link.disabled,
+.mettel-link.disabled,
+a.mettel-link-forgot-password.disabled,
+.mettel-link-forgot-password.disabled {
+  color: #000000;
+  opacity: 0.5;
+}
+a.mettel-link.hidden,
+.mettel-link.hidden,
+a.mettel-link-forgot-password.hidden,
+.mettel-link-forgot-password.hidden {
+  display: none;
+}
+.mettel-item-count,
+.mettel-button-count,
+.mettel-tab-item .mettel-item-count,
+.mettel-tab-item .mettel-button-count {
+  padding: 4px 7px;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1;
+  background-color: #b3b3b3;
+  color: #ffffff;
+  -webkit-border-radius: 50px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50px;
+  -moz-background-clip: padding;
+  border-radius: 50px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.mettel-section-heading {
+  display: inline-block;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.3;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+.mettel-section-heading-count {
+  color: #808080;
+  line-height: 1.2;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+.mettel-current-step-readonly-status-text {
+  color: #333333;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  line-height: 2rem;
+}
+.mettel-billing-history .mettel-main-content {
+  padding-top: 20px;
+}
+.mettel-billing-history .mettel-grid {
+  margin-bottom: 20px;
+}
+.mettel-billing-history .mettel-grid-column-bill-period {
+  width: 225px;
+}
+.mettel-billing-history .mettel-grid-cell-actions {
+  margin-bottom: 5px;
+}
+.mettel-cost-variance .mettel-sidebar-content {
+  border-right: 1px solid #e5e5e5;
+}
+.mettel-cost-variance .mettel-sidebar-content .mettel-form-row,
+.mettel-cost-variance .mettel-sidebar-content .mettel-form-row-submit {
+  margin-bottom: 5px;
+}
+.mettel-cost-variance .mettel-sidebar-content .mettel-combo-box,
+.mettel-cost-variance .mettel-sidebar-content .mettel-input,
+.mettel-cost-variance .mettel-sidebar-content .mettel-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-search .mettel-search-input,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-catalog-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-subsection-item .mettel-option-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-notes-container .mettel-new-note-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  margin-bottom: 5px;
+}
+.mettel-cost-variance .mettel-sidebar-content .mettel-input,
+.mettel-cost-variance .mettel-sidebar-content .mettel-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-search .mettel-search-input,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-catalog-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-subsection-item .mettel-option-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-notes-container .mettel-new-note-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  width: 115px;
+}
+.mettel-cost-variance .mettel-sidebar-content .mettel-combo-box.fixedWidth {
+  width: 115px;
+}
+.mettel-cost-variance .mettel-sidebar-content .mettel-primary-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-primary-button-icon-text,
+.mettel-cost-variance .mettel-sidebar-content .mettel-request-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-help-desk-notifications-panel .mettel-send-private-message-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-inventory-map-modal .mettel-view-floor,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-catalog-add-category-modal .mettel-modal-save-new-category,
+.mettel-cost-variance .mettel-sidebar-content .mettel-product-catalog-add-subcategory-modal .mettel-modal-save-new-subcategory,
+.mettel-cost-variance .mettel-sidebar-content .mettel-edit-subcategory-name-modal .mettel-modal-edit-subcategory-name,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-standard-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot-notes-container .mettel-urgent-note-save,
+.mettel-cost-variance .mettel-sidebar-content .mettel-notes-container .mettel-urgent-note-save,
+.mettel-cost-variance .mettel-sidebar-content .mettel-sticky-notes-container .mettel-urgent-note-save,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot-notes-container .mettel-new-note-save,
+.mettel-cost-variance .mettel-sidebar-content .mettel-notes-container .mettel-new-note-save,
+.mettel-cost-variance .mettel-sidebar-content .mettel-sticky-notes-container .mettel-new-note-save,
+.mettel-cost-variance .mettel-sidebar-content .mettel-primary-button-login,
+.mettel-cost-variance .mettel-sidebar-content .mettel-request-repair-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-request-service-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-issue-timeline .mettel-close-ticket-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-issue-timeline .mettel-view-request-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot .mettel-close-ticket-button,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot .mettel-ticket-snapshot-work-ticket,
+.mettel-cost-variance .mettel-sidebar-content .mettel-ticket-snapshot .mettel-view-request-button {
+  float: right;
+  margin-bottom: 20px;
+}
+.mettel-cost-variance .mettel-main-content .mettel-cost-variance-tabs {
+  margin-bottom: 20px;
+}
+.mettel-cost-variance .mettel-main-content .mettel-cost-variance-bar-chart {
+  background-color: #3a6cb8;
+  float: left;
+  margin-right: 10px;
+  height: 20px;
+}
+.mettel-cost-variance .mettel-sidebar-content,
+.mettel-cost-variance .mettel-main-content {
+  padding: 30px;
+}
+.mettel-cost-variance .mettel-grid-column-location {
+  width: 250px;
+}
+.mettel-dashboard-main-content {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mettel-dashboard-actions {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  background-color: #182333;
+}
+.mettel-dashboard-actions-title {
+  font-family: 'ProximaNovaThin', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 25px 22px;
+}
+.mettel-dashboard-actions-list > li {
+  display: block;
+  padding: 8px 22px;
+}
+.mettel-dashboard-actions-list > li > a {
+  vertical-align: top;
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 10px;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: #2cb0ed;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.mettel-help-desk .mettel-sidebar-content {
+  border-right: 1px solid #f5f5f5;
+  padding: 30px;
+}
+.mettel-help-desk .mettel-sidebar-content .mettel-summary-content {
+  margin-top: 20px;
+}
+.mettel-help-desk .mettel-sidebar-content .mettel-value {
+  display: inline-block;
+  margin-right: 5px;
+}
+.lt-ie9 .mettel-help-desk .mettel-sidebar-content .mettel-value {
+  width: 75px;
+}
+.mettel-help-desk .mettel-sidebar-content .mettel-table-column-count {
+  width: 70px;
+}
+.mettel-help-desk .mettel-column-one,
+.mettel-help-desk .mettel-column-two {
+  padding: 30px;
+}
+.mettel-help-desk .mettel-column-two .mettel-key-value-table-container {
+  border-bottom: 0px;
+}
+.mettel-help-desk .mettel-button-bar,
+.mettel-help-desk .mettel-secondary-navigation {
+  border-top: 1px solid #f5f5f5;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+}
+.invoice-management .bottom-bar-div {
+  padding-bottom: 12px;
+}
+.mettel-location-details {
+  display: table;
+}
+.mettel-location-details .mettel-location-details-hierarchy {
+  display: table-cell;
+  vertical-align: top;
+  border-right: 1px solid #f5f5f5;
+}
+.mettel-location-details .mettel-location-details-body {
+  display: table-cell;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.mettel-location-details .mettel-location-details-toolbar {
+  *zoom: 1;
+  padding-bottom: 20px;
+}
+.mettel-location-details .mettel-location-details-toolbar:before,
+.mettel-location-details .mettel-location-details-toolbar:after {
+  content: " ";
+  display: table;
+}
+.mettel-location-details .mettel-location-details-toolbar:after {
+  clear: both;
+}
+.mettel-location-details .mettel-location-details-toolbar .mettel-location-details-ticket-bar {
+  float: left;
+}
+.mettel-location-details .mettel-location-details-toolbar .mettel-location-details-actions {
+  float: right;
+}
+.mettel-grid-column-boolean-status,
+.mettel-boolean-status {
+  text-align: center;
+  color: #8ac008;
+  line-height: 1;
+}
+.mettel-grid-row-selected .mettel-grid-column-boolean-status,
+.mettel-grid-row-selected .mettel-boolean-status {
+  color: #ffffff;
+}
+.mettel-grid-column-boolean-status:before,
+.mettel-boolean-status:before {
+  font-size: 20px;
+  font-size: 2rem;
+}
+.mettel-location-info-header-navigation {
+  *zoom: 1;
+}
+.mettel-location-info-header-navigation:before,
+.mettel-location-info-header-navigation:after {
+  content: " ";
+  display: table;
+}
+.mettel-location-info-header-navigation:after {
+  clear: both;
+}
+.mettel-location-info-header-navigation .mettel-location-info-header-navigation-left {
+  float: left;
+}
+.mettel-location-info-header-navigation .mettel-location-info-header-navigation-right {
+  float: right;
+}
+.mettel-repairs .mettel-sidebar-content {
+  padding: 30px;
+  border-right: 1px solid #f5f5f5;
+}
+.mettel-repairs .mettel-sidebar-content .mettel-summary-content {
+  margin-top: 20px;
+}
+.mettel-repairs .mettel-sidebar-content .mettel-value {
+  display: inline-block;
+  margin-right: 5px;
+}
+.mettel-repairs .mettel-sidebar-content .mettel-table-column-count {
+  width: 70px;
+}
+.mettel-repairs .mettel-main-content {
+  padding: 20px;
+}
+.mettel-repairs .mettel-main-content .mettel-tab-content {
+  padding-right: 0;
+  padding-left: 0;
+}
+.mettel-service .mettel-sidebar-content {
+  padding: 30px;
+  border-right: 1px solid #f5f5f5;
+}
+.mettel-service .mettel-sidebar-content .mettel-summary-content {
+  margin-top: 20px;
+}
+.mettel-service .mettel-sidebar-content .mettel-value {
+  display: inline-block;
+  margin-right: 5px;
+}
+.mettel-service .mettel-sidebar-content .mettel-table-column-count {
+  width: 70px;
+}
+.mettel-service .mettel-main-content {
+  padding: 20px;
+}
+.mettel-service .mettel-main-content .mettel-tab-content {
+  padding-right: 0;
+  padding-left: 0;
+}
+@font-face {
+  font-family: "mettel-icons";
+  src: url("../fonts/mettel-webfont/mettel-icons.eot");
+  src: url("../fonts/mettel-webfont/mettel-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/mettel-webfont/mettel-icons.woff") format("woff"), url("../fonts/mettel-webfont/mettel-icons.ttf") format("truetype"), url("../fonts/mettel-webfont/mettel-icons.svg?#mettel-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.mettel-icon-action-menu:before,
+.mettel-icon-alert-round:before,
+.mettel-icon-alert:before,
+.mettel-icon-approve:before,
+.mettel-icon-arrow-down:before,
+.mettel-icon-arrow-left:before,
+.mettel-icon-arrow-up:before,
+.mettel-icon-ban:before,
+.mettel-icon-bars:before,
+.mettel-icon-bell:before,
+.mettel-icon-bills:before,
+.mettel-icon-buildings:before,
+.mettel-icon-calendar:before,
+.mettel-icon-callcenter:before,
+.mettel-icon-caret-down:before,
+.mettel-icon-caret-left:before,
+.mettel-icon-caret-right:before,
+.mettel-icon-caret-up:before,
+.mettel-icon-cart-outline:before,
+.mettel-icon-cart:before,
+.mettel-icon-chat-filled:before,
+.mettel-icon-chat:before,
+.mettel-icon-check-thin:before,
+.mettel-icon-check:before,
+.mettel-icon-circle-empty:before,
+.mettel-icon-circle-filled:before,
+.mettel-icon-circle-half:before,
+.mettel-icon-clear:before,
+.mettel-icon-clock:before,
+.mettel-icon-close-alt:before,
+.mettel-icon-close:before,
+.mettel-icon-compose:before,
+.mettel-icon-doc:before,
+.mettel-icon-dollar:before,
+.mettel-icon-download:before,
+.mettel-icon-downloadfile:before,
+.mettel-icon-edit:before,
+.mettel-icon-email:before,
+.mettel-icon-escalation-manager:before,
+.mettel-icon-escalation-sla:before,
+.mettel-icon-escalation-time:before,
+.mettel-icon-eye-alt:before,
+.mettel-icon-eye:before,
+.mettel-icon-file:before,
+.mettel-icon-files:before,
+.mettel-icon-folder-open:before,
+.mettel-icon-folder:before,
+.mettel-icon-funnel:before,
+.mettel-icon-gear-alt:before,
+.mettel-icon-gear:before,
+.mettel-icon-globe:before,
+.mettel-icon-help-desk:before,
+.mettel-icon-help:before,
+.mettel-icon-hidden:before,
+.mettel-icon-hierarchy:before,
+.mettel-icon-history:before,
+.mettel-icon-info:before,
+.mettel-icon-invoiceflag-balance:before,
+.mettel-icon-invoiceflag-exceeded:before,
+.mettel-icon-invoiceflag-first:before,
+.mettel-icon-invoiceflag-incomplete:before,
+.mettel-icon-invoiceflag-missing:before,
+.mettel-icon-invoiceflag-note:before,
+.mettel-icon-invoiceflag-old:before,
+.mettel-icon-invoiceflag-previous:before,
+.mettel-icon-invoiceflag-subsequent:before,
+.mettel-icon-invoiceflag-variance:before,
+.mettel-icon-loading:before,
+.mettel-icon-lock:before,
+.mettel-icon-menu-toggle:before,
+.mettel-icon-minus:before,
+.mettel-icon-modified-price:before,
+.mettel-icon-more:before,
+.mettel-icon-new:before,
+.mettel-icon-no-image:before,
+.mettel-icon-paperclip:before,
+.mettel-icon-pencil:before,
+.mettel-icon-people:before,
+.mettel-icon-phone:before,
+.mettel-icon-pin-plus:before,
+.mettel-icon-pin:before,
+.mettel-icon-plus:before,
+.mettel-icon-refresh:before,
+.mettel-icon-repeat:before,
+.mettel-icon-reply-arrow:before,
+.mettel-icon-resulting-status:before,
+.mettel-icon-search-alt:before,
+.mettel-icon-search:before,
+.mettel-icon-star-filled:before,
+.mettel-icon-star-outline:before,
+.mettel-icon-status-connected:before,
+.mettel-icon-status-disconnected:before,
+.mettel-icon-status-pending:before,
+.mettel-icon-status-unapproved:before,
+.mettel-icon-tag:before,
+.mettel-icon-template:before,
+.mettel-icon-trash:before,
+.mettel-icon-triangle-down:before,
+.mettel-icon-triangle-left:before,
+.mettel-icon-triangle-right-outline:before,
+.mettel-icon-triangle-right:before,
+.mettel-icon-triangle-up:before,
+.mettel-icon-unlink:before,
+.mettel-icon-urgentnote:before,
+.mettel-icon-usb:before,
+.mettel-icon-user-group:before,
+.mettel-icon-user:before,
+.mettel-icon-weather-clear:before,
+.mettel-icon-weather-lightrain:before,
+.mettel-icon-weather-lightthunderstorm:before,
+.mettel-icon-weather-mostlycloudy:before,
+.mettel-icon-weather-overcast:before,
+.mettel-icon-weather-partlycloudy:before,
+.mettel-icon-weather-rain:before,
+.mettel-icon-weather-snow:before,
+.mettel-icon-weather-thunderstorm:before,
+.mettel-icon-weather-wind:before,
+.mettel-action-buttons-container .mettel-more-actions-toggle-button:before,
+.mettel-action-buttons-container.mettel-state-active .mettel-more-actions-toggle-button:before,
+.mettel-region-filters-form-container .mettel-previous-regions-page-button:before,
+.mettel-region-filters-form-container .mettel-next-regions-page-button:before,
+.mettel-button-icon-add:before,
+.mettel-button-icon-bills:before,
+.mettel-button-icon-minus:before,
+.mettel-button-icon-open:before,
+.mettel-button-icon-close:before,
+.mettel-button-icon-close-alt:before,
+.mettel-button-icon-delete:before,
+.mettel-button-icon-download:before,
+.mettel-button-icon-history:before,
+.mettel-button-icon-location:before,
+.mettel-button-icon-reload:before,
+.mettel-button-icon-search:before,
+.mettel-button-icon-settings:before,
+.mettel-button-icon-view-history:before,
+.mettel-button-icon-triangle-right-outline:before,
+.mettel-button-icon-triangle-right:before,
+.mettel-button-icon-view:before,
+.mettel-button-icon-view-alt:before,
+.mettel-button-icon-unfavorite:before,
+.mettel-button-icon-favorite:before,
+.mettel-button-icon-text-reports:before,
+.mettel-button-icon-text-help-desk:before,
+.mettel-button-icon-text-bills:before,
+.mettel-button-icon-text-orders:before,
+.mettel-button-icon-text-download:before,
+.mettel-button-icon-text-assets:before,
+.mettel-button-icon-text-contacts:before,
+.mettel-button-icon-text-chatbubble:before,
+.mettel-button-icon-text-edit:before,
+.mettel-button-icon-text-back:before,
+.mettel-request-repair-button:before,
+.mettel-request-service-button:before,
+.mettel-button-cta:before,
+.mettel-button-square-gray-cog:before,
+.mettel-button-square-gray-caret-right:before,
+.mettel-customer-care-tickets-grid .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-customer-care-tickets-grid .mettel-grid-head-cell.mettel-grid-column-selected.mettel-grid-column-desc:before,
+.mettel-error-message:before,
+.mettel-grid-action-add-button:before,
+.mettel-grid-action-search-button:before,
+.mettel-grid-action-refresh-button:before,
+.mettel-grid-action-filters-button:before,
+.mettel-grid-action-download-button:before,
+.mettel-ticket-status-connected:before,
+.mettel-ticket-status-unapproved:before,
+.mettel-ticket-status-pending:before,
+.mettel-ticket-status-disconnected:before,
+.mettel-ticket-status-complete:before,
+.mettel-button-grid-row-expand:before,
+.mettel-button-grid-row-select:before,
+.mettel-button-grid-row-edit:before,
+.mettel-button-grid-row-delete:before,
+.mettel-grid-footer .mettel-button-icon-text-scrolling:before,
+.mettel-help-desk-notifications-panel .mettel-notifications-toggle:before,
+.mettel-help-desk-notifications-panel .mettel-notifications-close-button:before,
+.mettel-help-desk-notifications-panel .mettel-new-notifications-text:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-chat .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-alert .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-task .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-information .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification-more-button:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-chat:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-alert:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-task:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-information:before,
+.mettel-button-icon-hierarchy-expand:before,
+.mettel-button-icon-hierarchy-admin:before,
+.mettel-button-icon-hierarchy-admin.mettel-admin-mode-active:before,
+.mettel-info-bar-expand-button:before,
+.mettel-state-expanded .mettel-info-bar-expand-button:before,
+.mettel-info-bar-edit-label:before,
+.mettel-info-bar-hierarchy-list > li:before,
+.mettel-info-bar-new-note-button:before,
+.mettel-inventory-location-flyout-close:before,
+.mettel-inventory-location-asset-hierarchy-node:before,
+.mettel-inventory-location-flyout-previous-asset-button:before,
+.mettel-inventory-location-flyout-next-asset-button:before,
+.mettel-location-bar-container-inner.mettel-state-expanded .mettel-location-bar-expand-button:before,
+.mettel-location-bar-container-inner .mettel-location-bar-edit-location-label:before,
+.mettel-error-modal-dialog .mettel-error-modal-indicator:before,
+.mettel-product-hidden-indicator-base:before,
+.mettel-product-catalog-post-unsuccessful-message:before,
+.mettel-product-catalog-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-product-catalog-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-menu-category-hidden-indicator-base:before,
+.mettel-product-catalog-add-category .mettel-product-catalog-category-title:before,
+.mettel-product-catalog-subcategory-selected-indicator:before,
+.mettel-product-catalog-add-subcategory .mettel-product-catalog-subcategory-title:before,
+.mettel-product-catalog-intro-note:before,
+.mettel-product-catalog-subcategory-header-inner .mettel-edit-subcategory-name-button:before,
+.mettel-product-catalog-subcategory-add-product:before,
+.mettel-product-catalog-subcategory-toggle-filter:before,
+.mettel-product-catalog-subcategory-toggle-view:before,
+.mettel-pricing-group.mettel-state-expanded.mettel-pricing-group .mettel-pricing-group-twisty:before,
+.mettel-favorite-link-note:before,
+.mettel-scrolling-selector-delete-button:before,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-status:before,
+.mettel-ticket-issue-timeline .mettel-issue-timeline-issue-alert-status.mettel-alert:before,
+.mettel-ticket-issue-timeline .mettel-alert .mettel-issue-timeline-issue-status-outer .mettel-issue-timeline-issue-status-inner:before,
+.mettel-ticket-issue-timeline .mettel-open-status.mettel-step-change-begin .mettel-issue-timeline-issue-status-inner:before,
+.mettel-ticket-issue-timeline .mettel-in-progress-status.mettel-step-change-begin.mettel-investigate-status .mettel-issue-timeline-issue-status-inner:before,
+.mettel-ticket-issue-timeline .mettel-in-progress-status.mettel-step-change-begin.mettel-repair-status .mettel-issue-timeline-issue-status-inner:before,
+.mettel-ticket-issue-timeline .mettel-resolved-status.mettel-step-change-begin .mettel-issue-timeline-issue-status-inner:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-issue-alert-status.mettel-alert:before,
+.mettel-ticket-favorite-indicator:before,
+.mettel-ticket-favorite-indicator.mettel-state-active:before,
+.mettel-ticket-note-day .mettel-urgent-note-title:before,
+.mettel-ticket-note-day .mettel-ticket-note-private-indicator:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-subscribers-notify-select:before,
+.mettel-notes-container .mettel-new-note-subscribers-notify-select:before,
+.mettel-sticky-notes-container .mettel-new-note-subscribers-notify-select:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-view-line-select:before,
+.mettel-notes-container .mettel-new-note-view-line-select:before,
+.mettel-sticky-notes-container .mettel-new-note-view-line-select:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-subscribers-notify-select.mettel-state-overlay-active:before,
+.mettel-notes-container .mettel-new-note-subscribers-notify-select.mettel-state-overlay-active:before,
+.mettel-sticky-notes-container .mettel-new-note-subscribers-notify-select.mettel-state-overlay-active:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-view-line-select.mettel-state-overlay-active:before,
+.mettel-notes-container .mettel-new-note-view-line-select.mettel-state-overlay-active:before,
+.mettel-sticky-notes-container .mettel-new-note-view-line-select.mettel-state-overlay-active:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-remove-attachment:before,
+.mettel-notes-container .mettel-new-note-remove-attachment:before,
+.mettel-sticky-notes-container .mettel-new-note-remove-attachment:before,
+.mettel-ticket-snapshot-notes-container .mettel-add-attachment-text:before,
+.mettel-notes-container .mettel-add-attachment-text:before,
+.mettel-sticky-notes-container .mettel-add-attachment-text:before,
+.mettel-ticket-snapshot-notes-container .mettel-ticket-subnote-indicator:before,
+.mettel-notes-container .mettel-ticket-subnote-indicator:before,
+.mettel-sticky-notes-container .mettel-ticket-subnote-indicator:before,
+.mettel-ticket-note-list-container .mettel-note-urgency-button:before,
+.mettel-tree-primary-branch-expand-button:before,
+.mettel-state-collapsed .mettel-tree-primary-branch-expand-button:before,
+.mettel-typeahead-additional-link:before,
+.mettel-weather-history-table .mettel-weather-history-condition .Clear:before,
+.mettel-boolean-status:before,
+.mettel-new-ticket-modal-dialog .mettel-existing-location:before,
+.mettel-new-ticket-modal-dialog .mettel-your-company:before,
+.mettel-new-ticket-modal-dialog .mettel-billing-account:before,
+.mettel-new-ticket-modal-dialog .mettel-new-location:before,
+.mettel-account-bar-expand-button:before,
+.mettel-state-expanded .mettel-account-bar-expand-button:before,
+.mettel-account-bar-edit-account-label:before,
+.mettel-account-bar-details-hierarchy-list > li:before,
+.mettel-account-bar-new-note-button:before,
+.mettel-dashboard-configuration-link:before,
+.mettel-dashboard-help-desk-link:before,
+.mettel-location-bar-container-inner .mettel-location-bar-expand-button:before,
+.mettel-location-bar-container-inner .mettel-location-bar-new-note-button:before,
+.mettel-product-catalog-category-hidden-indicator:before,
+.mettel-product-catalog-subcategory-hidden-indicator:before,
+.mettel-product-catalog-add-category-modal .mettel-add-category-unsuccessful-message:before,
+.mettel-product-catalog-add-subcategory-modal .mettel-add-subcategory-unsuccessful-message:before,
+.mettel-edit-subcategory-name-modal .mettel-name-edit-unsuccessful-message:before,
+.mettel-grid-products .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-grid-products .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-grid-cell-inner-product-hidden:before,
+.mettel-thumbnail-product .mettel-product-hidden-indicator:before,
+.mettel-option-group-options-modal .mettel-grid-option-group-options .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-option-group-options-modal .mettel-grid-option-group-options .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-product-federated-sku-group-modal .mettel-grid-federated-skus .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-product-federated-sku-group-modal .mettel-grid-federated-skus .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-preview-get-pricing-modal .mettel-grid-preview-pricing-options .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-preview-get-pricing-modal .mettel-grid-preview-pricing-options .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-report-link:before,
+.mettel-report-run-button:before,
+.mettel-report-download-button:before,
+.mettel-report-view-history-button:before,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-favorite-indicator:before,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-favorite-indicator.mettel-state-active:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-close:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-favorite-indicator:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-favorite-indicator.mettel-state-active:before,
+.mettel-ticket-note-list-container .mettel-note-list-line-filter:before {
+  font-family: "mettel-icons";
+  display: inline-block;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+.mettel-icon-action-menu:before,
+.mettel-help-desk-notifications-panel .mettel-notification-more-button:before {
+  content: "\e001";
+}
+.mettel-icon-alert-round:before,
+.mettel-error-modal-dialog .mettel-error-modal-indicator:before,
+.mettel-ticket-issue-timeline .mettel-issue-timeline-issue-alert-status.mettel-alert:before,
+.mettel-ticket-issue-timeline .mettel-alert .mettel-issue-timeline-issue-status-outer .mettel-issue-timeline-issue-status-inner:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-issue-alert-status.mettel-alert:before,
+.mettel-ticket-note-day .mettel-urgent-note-title:before {
+  content: "\e002";
+}
+.mettel-icon-alert:before,
+.mettel-request-repair-button:before,
+.mettel-error-message:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-alert .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-alert:before,
+.mettel-product-catalog-post-unsuccessful-message:before,
+.mettel-product-catalog-add-category-modal .mettel-add-category-unsuccessful-message:before,
+.mettel-product-catalog-add-subcategory-modal .mettel-add-subcategory-unsuccessful-message:before,
+.mettel-edit-subcategory-name-modal .mettel-name-edit-unsuccessful-message:before {
+  content: "\e003";
+}
+.mettel-icon-approve:before {
+  content: "\e004";
+}
+.mettel-icon-arrow-down:before {
+  content: "\e005";
+}
+.mettel-icon-arrow-left:before,
+.mettel-product-catalog-intro-note:before {
+  content: "\e006";
+}
+.mettel-icon-arrow-up:before {
+  content: "\e007";
+}
+.mettel-icon-ban:before {
+  content: "\e008";
+}
+.mettel-icon-bars:before,
+.mettel-button-icon-text-reports:before {
+  content: "\e009";
+}
+.mettel-icon-bell:before,
+.mettel-help-desk-notifications-panel .mettel-notifications-toggle:before {
+  content: "\e00a";
+}
+.mettel-icon-bills:before,
+.mettel-button-icon-bills:before,
+.mettel-button-icon-text-bills:before {
+  content: "\e00b";
+}
+.mettel-icon-buildings:before,
+.mettel-new-ticket-modal-dialog .mettel-your-company:before {
+  content: "\e00c";
+}
+.mettel-icon-calendar:before,
+.mettel-ticket-issue-timeline .mettel-in-progress-status.mettel-step-change-begin.mettel-repair-status .mettel-issue-timeline-issue-status-inner:before {
+  content: "\e00d";
+}
+.mettel-icon-callcenter:before {
+  content: "\e00e";
+}
+.mettel-icon-caret-down:before,
+.mettel-action-buttons-container .mettel-more-actions-toggle-button:before,
+.mettel-button-icon-open:before,
+.mettel-button-icon-hierarchy-admin:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-subscribers-notify-select:before,
+.mettel-notes-container .mettel-new-note-subscribers-notify-select:before,
+.mettel-sticky-notes-container .mettel-new-note-subscribers-notify-select:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-view-line-select:before,
+.mettel-notes-container .mettel-new-note-view-line-select:before,
+.mettel-sticky-notes-container .mettel-new-note-view-line-select:before,
+.mettel-state-collapsed .mettel-tree-primary-branch-expand-button:before {
+  content: "\e00f";
+}
+.mettel-icon-caret-left:before,
+.mettel-region-filters-form-container .mettel-previous-regions-page-button:before,
+.mettel-button-icon-text-back:before,
+.mettel-inventory-location-flyout-previous-asset-button:before {
+  content: "\e010";
+}
+.mettel-icon-caret-right:before,
+.mettel-region-filters-form-container .mettel-next-regions-page-button:before,
+.mettel-button-cta:before,
+.mettel-button-square-gray-caret-right:before,
+.mettel-button-grid-row-select:before,
+.mettel-info-bar-hierarchy-list > li:before,
+.mettel-inventory-location-asset-hierarchy-node:before,
+.mettel-inventory-location-flyout-next-asset-button:before,
+.mettel-product-catalog-subcategory-selected-indicator:before,
+.mettel-account-bar-details-hierarchy-list > li:before,
+.mettel-dashboard-help-desk-link:before {
+  content: "\e011";
+}
+.mettel-icon-caret-up:before,
+.mettel-action-buttons-container.mettel-state-active .mettel-more-actions-toggle-button:before,
+.mettel-button-icon-hierarchy-admin.mettel-admin-mode-active:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-subscribers-notify-select.mettel-state-overlay-active:before,
+.mettel-notes-container .mettel-new-note-subscribers-notify-select.mettel-state-overlay-active:before,
+.mettel-sticky-notes-container .mettel-new-note-subscribers-notify-select.mettel-state-overlay-active:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-view-line-select.mettel-state-overlay-active:before,
+.mettel-notes-container .mettel-new-note-view-line-select.mettel-state-overlay-active:before,
+.mettel-sticky-notes-container .mettel-new-note-view-line-select.mettel-state-overlay-active:before,
+.mettel-tree-primary-branch-expand-button:before {
+  content: "\e012";
+}
+.mettel-icon-cart-outline:before {
+  content: "\e013";
+}
+.mettel-icon-cart:before,
+.mettel-button-icon-text-orders:before {
+  content: "\e014";
+}
+.mettel-icon-chat-filled:before {
+  content: "\e015";
+}
+.mettel-icon-chat:before,
+.mettel-button-icon-text-chatbubble:before,
+.mettel-request-service-button:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-chat .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-chat:before {
+  content: "\e016";
+}
+.mettel-icon-check-thin:before {
+  content: "\e017";
+}
+.mettel-icon-check:before,
+.mettel-ticket-issue-timeline .mettel-resolved-status.mettel-step-change-begin .mettel-issue-timeline-issue-status-inner:before,
+.mettel-boolean-status:before {
+  content: "\e018";
+}
+.mettel-icon-circle-empty:before,
+.mettel-weather-history-table .mettel-weather-history-condition .Clear:before {
+  content: "\e019";
+}
+.mettel-icon-circle-filled:before,
+.mettel-ticket-status-complete:before,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-status:before {
+  content: "\e01a";
+}
+.mettel-icon-circle-half:before {
+  content: "\e01b";
+}
+.mettel-icon-clear:before {
+  content: "\e01c";
+}
+.mettel-icon-clock:before,
+.mettel-button-icon-view-history:before,
+.mettel-report-view-history-button:before {
+  content: "\e01d";
+}
+.mettel-icon-close-alt:before,
+.mettel-button-icon-close-alt:before,
+.mettel-help-desk-notifications-panel .mettel-notifications-close-button:before,
+.mettel-inventory-location-flyout-close:before,
+.mettel-ticket-snapshot-notes-container .mettel-new-note-remove-attachment:before,
+.mettel-notes-container .mettel-new-note-remove-attachment:before,
+.mettel-sticky-notes-container .mettel-new-note-remove-attachment:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-close:before {
+  content: "\e01e";
+}
+.mettel-icon-close:before,
+.mettel-button-icon-close:before {
+  content: "\e01f";
+}
+.mettel-icon-compose:before,
+.mettel-button-icon-text-edit:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-task .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-task:before {
+  content: "\e020";
+}
+.mettel-icon-doc:before {
+  content: "\e021";
+}
+.mettel-icon-dollar:before,
+.mettel-new-ticket-modal-dialog .mettel-billing-account:before {
+  content: "\e022";
+}
+.mettel-icon-download:before,
+.mettel-button-icon-download:before,
+.mettel-button-icon-text-download:before,
+.mettel-grid-action-download-button:before,
+.mettel-report-download-button:before {
+  content: "\e023";
+}
+.mettel-icon-downloadfile:before {
+  content: "\e024";
+}
+.mettel-icon-edit:before,
+.mettel-info-bar-edit-label:before,
+.mettel-location-bar-container-inner .mettel-location-bar-edit-location-label:before,
+.mettel-account-bar-edit-account-label:before {
+  content: "\e025";
+}
+.mettel-icon-email:before {
+  content: "\e026";
+}
+.mettel-icon-escalation-manager:before {
+  content: "\e027";
+}
+.mettel-icon-escalation-sla:before {
+  content: "\e028";
+}
+.mettel-icon-escalation-time:before {
+  content: "\e029";
+}
+.mettel-icon-eye-alt:before,
+.mettel-button-icon-view-alt:before,
+.mettel-ticket-note-list-container .mettel-note-list-line-filter:before {
+  content: "\e02a";
+}
+.mettel-icon-eye:before,
+.mettel-button-icon-view:before,
+.mettel-grid-action-filters-button:before,
+.mettel-product-catalog-subcategory-toggle-view:before {
+  content: "\e02b";
+}
+.mettel-icon-file:before {
+  content: "\e02c";
+}
+.mettel-icon-files:before {
+  content: "\e02d";
+}
+.mettel-icon-folder-open:before {
+  content: "\e02e";
+}
+.mettel-icon-folder:before {
+  content: "\e02f";
+}
+.mettel-icon-funnel:before,
+.mettel-grid-action-search-button:before,
+.mettel-product-catalog-subcategory-toggle-filter:before {
+  content: "\e030";
+}
+.mettel-icon-gear-alt:before,
+.mettel-button-square-gray-cog:before,
+.mettel-dashboard-configuration-link:before {
+  content: "\e031";
+}
+.mettel-icon-gear:before,
+.mettel-button-icon-settings:before,
+.mettel-ticket-note-list-container .mettel-note-urgency-button:before {
+  content: "\e032";
+}
+.mettel-icon-globe:before {
+  content: "\e033";
+}
+.mettel-icon-help-desk:before,
+.mettel-button-icon-text-help-desk:before {
+  content: "\e034";
+}
+.mettel-icon-help:before {
+  content: "\e035";
+}
+.mettel-icon-hidden:before,
+.mettel-product-hidden-indicator-base:before,
+.mettel-menu-category-hidden-indicator-base:before,
+.mettel-product-catalog-category-hidden-indicator:before,
+.mettel-product-catalog-subcategory-hidden-indicator:before,
+.mettel-grid-cell-inner-product-hidden:before,
+.mettel-thumbnail-product .mettel-product-hidden-indicator:before {
+  content: "\e036";
+}
+.mettel-icon-hierarchy:before,
+.mettel-button-icon-hierarchy-expand:before {
+  content: "\e037";
+}
+.mettel-icon-history:before,
+.mettel-button-icon-history:before {
+  content: "\e038";
+}
+.mettel-icon-info:before,
+.mettel-help-desk-notifications-panel .mettel-notification.mettel-notification-information .mettel-notification-indicator:before,
+.mettel-help-desk-notifications-panel .mettel-notification-filter-information:before {
+  content: "\e039";
+}
+.mettel-icon-invoiceflag-balance:before {
+  content: "\e03a";
+}
+.mettel-icon-invoiceflag-exceeded:before {
+  content: "\e03b";
+}
+.mettel-icon-invoiceflag-first:before {
+  content: "\e03c";
+}
+.mettel-icon-invoiceflag-incomplete:before {
+  content: "\e03d";
+}
+.mettel-icon-invoiceflag-missing:before {
+  content: "\e03e";
+}
+.mettel-icon-invoiceflag-note:before {
+  content: "\e03f";
+}
+.mettel-icon-invoiceflag-old:before {
+  content: "\e040";
+}
+.mettel-icon-invoiceflag-previous:before {
+  content: "\e041";
+}
+.mettel-icon-invoiceflag-subsequent:before {
+  content: "\e042";
+}
+.mettel-icon-invoiceflag-variance:before {
+  content: "\e043";
+}
+.mettel-icon-loading:before {
+  content: "\e044";
+}
+.mettel-icon-lock:before,
+.mettel-ticket-note-day .mettel-ticket-note-private-indicator:before {
+  content: "\e045";
+}
+.mettel-icon-menu-toggle:before {
+  content: "\e046";
+}
+.mettel-icon-minus:before,
+.mettel-button-icon-minus:before {
+  content: "\e047";
+}
+.mettel-icon-modified-price:before {
+  content: "\e048";
+}
+.mettel-icon-more:before {
+  content: "\e049";
+}
+.mettel-icon-new:before {
+  content: "\e04a";
+}
+.mettel-icon-no-image:before {
+  content: "\e04b";
+}
+.mettel-icon-paperclip:before,
+.mettel-ticket-snapshot-notes-container .mettel-add-attachment-text:before,
+.mettel-notes-container .mettel-add-attachment-text:before,
+.mettel-sticky-notes-container .mettel-add-attachment-text:before {
+  content: "\e04c";
+}
+.mettel-icon-pencil:before,
+.mettel-button-grid-row-edit:before,
+.mettel-product-catalog-subcategory-header-inner .mettel-edit-subcategory-name-button:before {
+  content: "\e04d";
+}
+.mettel-icon-people:before {
+  content: "\e04e";
+}
+.mettel-icon-phone:before {
+  content: "\e04f";
+}
+.mettel-icon-pin-plus:before,
+.mettel-new-ticket-modal-dialog .mettel-new-location:before {
+  content: "\e050";
+}
+.mettel-icon-pin:before,
+.mettel-button-icon-location:before,
+.mettel-button-icon-text-assets:before,
+.mettel-new-ticket-modal-dialog .mettel-existing-location:before {
+  content: "\e051";
+}
+.mettel-icon-plus:before,
+.mettel-button-icon-add:before,
+.mettel-grid-action-add-button:before,
+.mettel-info-bar-new-note-button:before,
+.mettel-product-catalog-add-category .mettel-product-catalog-category-title:before,
+.mettel-product-catalog-add-subcategory .mettel-product-catalog-subcategory-title:before,
+.mettel-product-catalog-subcategory-add-product:before,
+.mettel-typeahead-additional-link:before,
+.mettel-account-bar-new-note-button:before,
+.mettel-location-bar-container-inner .mettel-location-bar-new-note-button:before {
+  content: "\e052";
+}
+.mettel-icon-refresh:before,
+.mettel-button-icon-reload:before,
+.mettel-grid-action-refresh-button:before,
+.mettel-help-desk-notifications-panel .mettel-new-notifications-text:before {
+  content: "\e053";
+}
+.mettel-icon-repeat:before,
+.mettel-grid-footer .mettel-button-icon-text-scrolling:before {
+  content: "\e054";
+}
+.mettel-icon-reply-arrow:before,
+.mettel-ticket-snapshot-notes-container .mettel-ticket-subnote-indicator:before,
+.mettel-notes-container .mettel-ticket-subnote-indicator:before,
+.mettel-sticky-notes-container .mettel-ticket-subnote-indicator:before {
+  content: "\e055";
+}
+.mettel-icon-resulting-status:before {
+  content: "\e056";
+}
+.mettel-icon-search-alt:before {
+  content: "\e057";
+}
+.mettel-icon-search:before,
+.mettel-button-icon-search:before,
+.mettel-ticket-issue-timeline .mettel-in-progress-status.mettel-step-change-begin.mettel-investigate-status .mettel-issue-timeline-issue-status-inner:before {
+  content: "\e058";
+}
+.mettel-icon-star-filled:before,
+.mettel-button-icon-favorite:before,
+.mettel-ticket-favorite-indicator.mettel-state-active:before,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-favorite-indicator.mettel-state-active:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-favorite-indicator.mettel-state-active:before {
+  content: "\e059";
+}
+.mettel-icon-star-outline:before,
+.mettel-button-icon-unfavorite:before,
+.mettel-favorite-link-note:before,
+.mettel-ticket-favorite-indicator:before,
+.mettel-report-link:before,
+.mettel-selected-ticket-expanded-container .mettel-selected-ticket-favorite-indicator:before,
+.mettel-ticket-snapshot .mettel-ticket-snapshot-favorite-indicator:before {
+  content: "\e05a";
+}
+.mettel-icon-status-connected:before,
+.mettel-ticket-status-connected:before {
+  content: "\e05b";
+}
+.mettel-icon-status-disconnected:before,
+.mettel-ticket-status-disconnected:before {
+  content: "\e05c";
+}
+.mettel-icon-status-pending:before,
+.mettel-ticket-status-pending:before {
+  content: "\e05d";
+}
+.mettel-icon-status-unapproved:before,
+.mettel-ticket-status-unapproved:before {
+  content: "\e05e";
+}
+.mettel-icon-tag:before,
+.mettel-ticket-issue-timeline .mettel-open-status.mettel-step-change-begin .mettel-issue-timeline-issue-status-inner:before {
+  content: "\e05f";
+}
+.mettel-icon-template:before {
+  content: "\e060";
+}
+.mettel-icon-trash:before,
+.mettel-button-icon-delete:before,
+.mettel-button-grid-row-delete:before,
+.mettel-scrolling-selector-delete-button:before {
+  content: "\e061";
+}
+.mettel-icon-triangle-down:before,
+.mettel-customer-care-tickets-grid .mettel-grid-head-cell.mettel-grid-column-selected.mettel-grid-column-desc:before,
+.mettel-state-expanded .mettel-info-bar-expand-button:before,
+.mettel-location-bar-container-inner.mettel-state-expanded .mettel-location-bar-expand-button:before,
+.mettel-product-catalog-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-pricing-group.mettel-state-expanded.mettel-pricing-group .mettel-pricing-group-twisty:before,
+.mettel-state-expanded .mettel-account-bar-expand-button:before,
+.mettel-grid-products .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-option-group-options-modal .mettel-grid-option-group-options .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-product-federated-sku-group-modal .mettel-grid-federated-skus .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-preview-get-pricing-modal .mettel-grid-preview-pricing-options .mettel-grid-head-cell.mettel-grid-column-selected:before {
+  content: "\e062";
+}
+.mettel-icon-triangle-left:before {
+  content: "\e063";
+}
+.mettel-icon-triangle-right-outline:before,
+.mettel-button-icon-triangle-right-outline:before,
+.mettel-report-run-button:before {
+  content: "\e064";
+}
+.mettel-icon-triangle-right:before,
+.mettel-button-icon-triangle-right:before,
+.mettel-button-grid-row-expand:before,
+.mettel-info-bar-expand-button:before,
+.mettel-account-bar-expand-button:before,
+.mettel-location-bar-container-inner .mettel-location-bar-expand-button:before {
+  content: "\e065";
+}
+.mettel-icon-triangle-up:before,
+.mettel-customer-care-tickets-grid .mettel-grid-head-cell.mettel-grid-column-selected:before,
+.mettel-product-catalog-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-grid-products .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-option-group-options-modal .mettel-grid-option-group-options .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-product-federated-sku-group-modal .mettel-grid-federated-skus .mettel-grid-head-cell.mettel-grid-column-desc:before,
+.mettel-preview-get-pricing-modal .mettel-grid-preview-pricing-options .mettel-grid-head-cell.mettel-grid-column-desc:before {
+  content: "\e066";
+}
+.mettel-icon-unlink:before {
+  content: "\e067";
+}
+.mettel-icon-urgentnote:before {
+  content: "\e068";
+}
+.mettel-icon-usb:before {
+  content: "\e069";
+}
+.mettel-icon-user-group:before,
+.mettel-button-icon-text-contacts:before {
+  content: "\e06a";
+}
+.mettel-icon-user:before {
+  content: "\e06b";
+}
+.mettel-icon-weather-clear:before {
+  content: "\e06c";
+}
+.mettel-icon-weather-lightrain:before {
+  content: "\e06d";
+}
+.mettel-icon-weather-lightthunderstorm:before {
+  content: "\e06e";
+}
+.mettel-icon-weather-mostlycloudy:before {
+  content: "\e06f";
+}
+.mettel-icon-weather-overcast:before {
+  content: "\e070";
+}
+.mettel-icon-weather-partlycloudy:before {
+  content: "\e071";
+}
+.mettel-icon-weather-rain:before {
+  content: "\e072";
+}
+.mettel-icon-weather-snow:before {
+  content: "\e073";
+}
+.mettel-icon-weather-thunderstorm:before {
+  content: "\e074";
+}
+.mettel-icon-weather-wind:before {
+  content: "\e075";
+}
+.mettel-password-form {
+  width: 100%;
+  margin: 25px 0;
+}
+.mettel-password-form .mettel-password-form-elements {
+  width: 60%;
+  margin: 0 auto;
+  display: table;
+  list-style-type: none;
+  padding: 0;
+}
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row {
+  width: 100%;
+  margin: 5px 0;
+  display: table-cell;
+  float: left;
+  clear: left;
+}
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-label,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-disabled-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-input,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-combo-box.fixedWidth,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-search .mettel-search-input,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-catalog-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-subsection-item .mettel-option-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-notes-container .mettel-new-note-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  display: inline-block;
+}
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-input,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-combo-box.fixedWidth,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-disabled-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-search .mettel-search-input,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-catalog-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-subsection-item .mettel-option-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-notes-container .mettel-new-note-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  width: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-label {
+  width: 35%;
+  margin-right: 4%;
+  padding: 0;
+  vertical-align: middle;
+  text-align: right;
+}
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-disabled-text {
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #333333;
+}
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-primary-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-primary-button-icon-text,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-request-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-help-desk-notifications-panel .mettel-send-private-message-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-inventory-map-modal .mettel-view-floor,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-catalog-add-category-modal .mettel-modal-save-new-category,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-product-catalog-add-subcategory-modal .mettel-modal-save-new-subcategory,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-edit-subcategory-name-modal .mettel-modal-edit-subcategory-name,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-standard-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot-notes-container .mettel-urgent-note-save,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-notes-container .mettel-urgent-note-save,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-sticky-notes-container .mettel-urgent-note-save,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot-notes-container .mettel-new-note-save,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-notes-container .mettel-new-note-save,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-sticky-notes-container .mettel-new-note-save,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-primary-button-login,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-request-repair-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-request-service-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-issue-timeline .mettel-close-ticket-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-issue-timeline .mettel-view-request-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot .mettel-close-ticket-button,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot .mettel-ticket-snapshot-work-ticket,
+.mettel-password-form .mettel-password-form-elements .mettel-password-form-row .mettel-ticket-snapshot .mettel-view-request-button {
+  float: right;
+}
+.mettel-smart-search-form {
+  width: 100%;
+  margin: 25px 0 0 0;
+}
+.mettel-smart-search-form .mettel-smart-search-form-elements {
+  width: 90%;
+  margin: 0 auto 25px auto;
+  list-style-type: none;
+  padding: 0;
+  *zoom: 1;
+}
+.mettel-smart-search-form .mettel-smart-search-form-elements:before,
+.mettel-smart-search-form .mettel-smart-search-form-elements:after {
+  content: " ";
+  display: table;
+}
+.mettel-smart-search-form .mettel-smart-search-form-elements:after {
+  clear: both;
+}
+.mettel-smart-search-form .mettel-smart-search-form-row {
+  width: 100%;
+  margin: 5px 0;
+  display: table-cell;
+  float: left;
+  clear: left;
+}
+.mettel-smart-search-form .mettel-smart-search-form-row > div {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+.mettel-smart-search-form .mettel-smart-search-form-row > div:last-child {
+  margin-right: 0;
+}
+.mettel-smart-search-form .mettel-smart-search-form-row .mettel-search-combo-box {
+  width: 25%;
+}
+.mettel-smart-search-form .mettel-smart-search-form-row .mettel-search-combo-box .mettel-combo-box.fixedWidth {
+  padding: 12px 12px 13px;
+}
+.mettel-smart-search-form .mettel-smart-search-form-row-control {
+  width: 90%;
+  margin: 5px auto 10px;
+  float: none;
+  display: block;
+}
+.mettel-smart-search-form .mettel-smart-search-footer {
+  width: 100%;
+  padding: 15px;
+  background-color: #f5f5f5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *zoom: 1;
+}
+.mettel-smart-search-form .mettel-smart-search-footer:before,
+.mettel-smart-search-form .mettel-smart-search-footer:after {
+  content: " ";
+  display: table;
+}
+.mettel-smart-search-form .mettel-smart-search-footer:after {
+  clear: both;
+}
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-inline-button.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-ticket-note-list-container .mettel-note-list-line-filter-all.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-reports.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-help-desk.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-bills.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-orders.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-download.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-assets.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-contacts.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-chatbubble.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-edit.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-back.mettel-reset,
+.mettel-smart-search-form .mettel-smart-search-footer .mettel-button-icon-text-scrolling.mettel-reset {
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  background-color: #dddddd;
+  text-shadow: none;
+  color: #333333;
+}
+.mettel-smart-search-form .mettel-footer-left-button {
+  float: left;
+}
+.mettel-smart-search-form .mettel-footer-right-button {
+  float: right;
+}
+.mettel-grid-column-id {
+  width: 90px;
+}
+.mettel-grid-column-mtxloc {
+  width: 225px;
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+}
+.mettel-grid-column-state,
+.mettel-grid-column-zip {
+  width: 100px;
+}
+.mettel-login-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -32px;
+}
+.mettel-login {
+  display: table-cell;
+  vertical-align: middle;
+}
+.mettel-login-logo {
+  width: 340px;
+  height: 84px;
+  margin: 0 auto;
+  background-image: url("../images/mettel-logo-login.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: right;
+  margin-bottom: 25px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) {
+  .mettel-login-logo {
+    background-image: url("../images/mettel-logo-login@2x.png");
+    -webkit-background-size: 263px 84px;
+    background-size: 263px 84px;
+  }
+}
+.mettel-login-form {
+  width: 340px;
+  margin: 0 auto;
+}
+.mettel-login-form .mettel-input,
+.mettel-login-form .mettel-textarea,
+.mettel-login-form .mettel-search .mettel-search-input,
+.mettel-login-form .mettel-product-catalog-textarea,
+.mettel-login-form .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-login-form .mettel-product-subsection-item .mettel-option-text,
+.mettel-login-form .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-login-form .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-login-form .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-login-form .mettel-notes-container .mettel-new-note-text,
+.mettel-login-form .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-login-form .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  width: 180px;
+}
+.mettel-link-forgot-password {
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+.mettel-form-row-submit {
+  margin-bottom: 0;
+}
+.mettel-primary-button-login {
+  float: right;
+  position: relative;
+  top: -10px;
+}
+.mettel-new-location-page .mettel-page-title {
+  display: inline-block;
+  width: 200px;
+}
+.mettel-new-location-page .mettel-search {
+  top: 3px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .mettel-new-location-page .mettel-search-input :-ms-input-placeholder {
+    padding-left: 5px;
+  }
+}
+.mettel-new-location-page .mettel-label {
+  width: 210px;
+}
+.mettel-new-location-page div.mettel-combo-box {
+  width: 160px;
+}
+.mettel-new-ticket-modal-dialog {
+  width: 640px;
+  min-width: 640px;
+}
+.mettel-new-ticket-modal-dialog .mettel-form,
+.mettel-new-ticket-modal-dialog .mettel-login-form {
+  margin-bottom: 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-modal-content {
+  height: 304px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-form-row,
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-form-row-submit {
+  display: block;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-label {
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-search-input {
+  width: 214px;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-typeahead-container {
+  width: 230px;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-new-ticket-modal-content-left,
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-new-ticket-modal-content-right {
+  padding-top: 27px;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-scrolling-selector {
+  margin-top: 21px;
+}
+.mettel-new-ticket-modal-dialog .mettel-no-existing-location .mettel-new-ticket-no-locations-message {
+  margin: 0;
+  padding: 9px 12px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+  color: #999999;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry {
+  text-align: left;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-form-row,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-form-row,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-form-row-submit,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-form-row-submit {
+  table-layout: fixed;
+  margin: 16px 0 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-form-row:first-child,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-form-row:first-child,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-form-row-submit:first-child,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-form-row-submit:first-child {
+  margin-top: 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-label,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-label {
+  width: 128px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-input-container,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-input-container {
+  display: table-cell;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-input,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-input,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-search .mettel-search-input,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-search .mettel-search-input,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-catalog-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-product-catalog-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-subsection-item .mettel-option-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-product-subsection-item .mettel-option-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-ticket-note-list-container .mettel-urgent-note-update-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  width: 256px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 2px;
+  line-height: 16px;
+  line-height: 1.6rem;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-input-note,
+.mettel-new-ticket-modal-dialog .mettel-new-location-entry .mettel-input-note {
+  margin: 0 0 -4px;
+  padding: 5px 0 0 128px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+  color: #808080;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.mettel-new-ticket-modal-dialog .mettel-radio-label-text {
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 36px;
+  color: #333333;
+}
+.mettel-new-ticket-modal-dialog .mettel-radio-container > span {
+  width: 30px;
+  height: 30px;
+}
+.mettel-new-ticket-modal-dialog .mettel-radio-container > span:before {
+  margin: -8px 0 0 -8px;
+  height: 16px;
+  width: 16px;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-modal-content-left,
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-modal-content-right {
+  display: block;
+  width: 50%;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-modal-content-left {
+  padding: 16px 32px;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-modal-content-right {
+  padding: 16px 16px 16px 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-modal-content-fieldset {
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 32px 0 0 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-select-address {
+  width: 43%;
+  display: block;
+  float: left;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-input,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-search .mettel-search-input,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-catalog-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-details-general-info-container .mettel-product-description-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-subsection-item .mettel-option-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-add-edit-sku-attribute-modal .mettel-sku-attribute-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-product-preview-option-groups-container .mettel-preview-option-textarea,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-ticket-snapshot-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-sticky-notes-container .mettel-new-note-text,
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-ticket-note-list-container .mettel-urgent-note-update-text {
+  width: 300px;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-location-validation .mettel-label {
+  text-align: left;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector {
+  height: 240px;
+  width: 304px;
+  border-radius: 2px;
+  border-color: #bbbbbb;
+}
+.mettel-new-ticket-modal-dialog .mettel-multi-selector-label {
+  display: block;
+  padding-bottom: 16px;
+  font-family: 'ProximaNovaRegular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+  color: #808080;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-inner {
+  padding: 10px 12px;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-inner:before {
+  content: "";
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-inner.mettel-state-selected {
+  background-color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-inner.mettel-state-selected:before {
+  content: '';
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-inner.mettel-state-selected .mettel-scrolling-selector-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-inner .mettel-state-selected:hover {
+  background-color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-text {
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-container {
+  display: block;
+  font-size: 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button {
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border: 0;
+  padding: 26px 0 14px;
+  position: relative;
+  outline: none;
+}
+.mettel-new-ticket-modal-dialog .mettel-scrolling-selector-list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-location-select,
+.mettel-new-ticket-modal-dialog .mettel-location-search {
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 13px;
+  line-height: 1.3rem;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+}
+.mettel-new-ticket-modal-dialog .mettel-location-select {
+  text-align: left;
+  border-top: 1px solid #b3b3b3;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.mettel-new-ticket-modal-dialog .mettel-select-address-text {
+  display: block;
+  clear: left;
+  padding-left: 40px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  margin-top: -5px;
+}
+.mettel-new-ticket-modal-dialog .mettel-typeahead {
+  padding-top: 8px;
+}
+.mettel-new-ticket-modal-dialog .mettel-search-input {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-text {
+  font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  color: #808080;
+  display: block;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 14px;
+  line-height: 1.4rem;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-search-text {
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active {
+  background-color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active .mettel-new-ticket-button-text {
+  color: #ffffff;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active .mettel-new-ticket-button-text:before {
+  color: #ffffff;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active .mettel-new-ticket-button-text:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  bottom: 0;
+  border-bottom: 8px solid #ffffff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active:hover {
+  background-color: #ffffff;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active:hover:before {
+  color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button-active:hover .mettel-new-ticket-button-text {
+  color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button:hover {
+  background-color: #ffffff;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button:hover .mettel-new-ticket-button-text {
+  color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-new-ticket-button:hover .mettel-new-ticket-button-text:before {
+  color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-billing-account:before,
+.mettel-new-ticket-modal-dialog .mettel-your-company:before,
+.mettel-new-ticket-modal-dialog .mettel-new-location:before,
+.mettel-new-ticket-modal-dialog .mettel-existing-location:before {
+  display: block;
+  padding-bottom: 18px;
+  font-size: 48px;
+  line-height: 1;
+  color: #cccccc;
+}
+.mettel-new-ticket-modal-dialog .mettel-modal-footer-link {
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'ProximaNovaBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #2cb0ed;
+}
+.mettel-new-ticket-modal-dialog .mettel-existing-location-address-container {
+  text-transform: uppercase;
+  display: block;
+  border-bottom: #cccccc 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 16px;
+}
+.mettel-new-ticket-modal-dialog .mettel-existing-location-address {
+  display: block;
+  font-family: 'ProximaNovaRegular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #333333;
+  line-height: 16px;
+}
+.mettel-billing-account-content,
+.mettel-your-company-content {
+  padding: 16px 32px;
+  text-align: left;
+}
+.mettel-billing-account-content .mettel-scrolling-selector,
+.mettel-your-company-content .mettel-scrolling-selector {
+  width: 576px;
+}

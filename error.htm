@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Zhenxi Mi">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://sharepoint.mettel.net/SiteAssets/favicon.ico" type="image/x-icon" />
+    <title>Maintenance</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,200,400,600,700,800" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+    <style>
+        body {
+            background-color: #182332;
+            font-family: 'ProximaNova', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: white !important;
+        }
+        .container {
+            max-width: 50%;
+            padding: 0 0 2% 0;
+        }
+        #logo {
+            margin: 4% auto 1% auto;
+            height: 100%;
+        }
+        .devider {
+            border: 1px solid #9B9B9B;
+            max-width: 2650px;
+            margin: 4% 10%;
+        }
+        .bottom-devider {
+            display: block;
+            border: 1px solid rgba(247, 247, 247, .1);
+            margin: 3% 20%;
+        }
+        .centered {
+            display: block;
+            margin: auto;
+        }
+        .msg h6 {
+            opacity: 0.9;
+            font-weight: 200;
+            text-shadow: 2px 2px 3px #3a3a3a;
+        }
+        .contacts {     
+            text-align: center;
+            font-size: 4rem;
+        }
+        .contact-us, .tel-numbers, .email-button {
+            display: inline-block;
+            vertical-align: bottom;
+        }
+        #phone-icon {
+            transform:rotateY(180deg);
+            color: white;
+        }
+        #or {
+            font-size: 2rem;
+            opacity: 0.8;
+        }
+        .tel-numbers {
+            font-size: 3rem;
+        }
+        .button {
+            font-weight: 200;
+            border-radius: 3px;
+            border-color: #36B1EA !important;
+            background-color: #36B1EA !important;
+        }
+        .email-button {
+            margin-left: 20px;
+        }
+        .email-button a {
+            line-height: 32px;
+            height: 32px;
+            font-size: 15px;
+
+        }
+        /* Mobile first queries */
+
+        /* Smaller than iPhone6 */
+        @media (max-width: 399px) {
+            html{
+                font-size: 6px;
+            }
+            .container {
+                max-width: 70%;
+            }
+            #logo {
+                margin: 4% 15% 1% 15%;
+            }
+            .devider {
+                border: 0.5px solid #9B9B9B;
+                margin: 4% 1%;
+            }
+            .error-sign {
+                display: block;
+                padding: 4% 0;
+            }
+            .error-sign .svg {
+                transform: scale(.7);
+            }
+        /* Larger than mobile */
+        }@media (min-width: 400px) {
+            html{
+                font-size: 6px;
+            }
+            .error-sign {
+                display: block;
+                padding: 4% 0;
+            }
+            .error-sign .svg {
+                transform: scale(.9);
+            }
+        }
+
+        /* Larger than phablet */
+        @media (min-width: 550px) {
+            html{
+                font-size: 10px;
+            }
+            .error-sign {
+                display: block;
+                padding: 10% 0;
+            }
+            .error-sign .svg {
+                transform: scale(0.4);
+            }
+        }
+
+        /* Larger than tablet */
+        @media (min-width: 750px) {
+            html{
+                font-size: 11px;
+            }
+            
+            .error-sign {
+                display: block;
+                padding: 10% 0;
+            }
+            .error-sign .svg {
+                transform: scale(.7);
+            }
+        }
+
+        /* Larger than desktop */
+        @media (min-width: 1000px) {
+            html{
+                font-size: 12px;
+            }
+            .error-sign {
+                display: block;
+                padding: 10% 0;
+            }
+            .error-sign .svg {
+                transform: scale(1.2);
+            }
+        }
+
+        /* Larger than Desktop HD */
+        @media (min-width: 1200px) {
+            html{
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="logo">
+            <div class="offset-by-four four columns">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 249 79" enable-background="new 0 0 249 79" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M62.3 0L43.1 36.9H43L37.9 0H14.4L4.3 55.5h14.6l7.5-42.6h0.2l5.8 42.6H46L68 12.9h0.2l-8 42.6h14.6L84.9 0H62.3zM178.9 11l-8.2 44.5h-14.9l5.1-27.7 15.2-3.7h-14.5 -19.4l-1.6 8.6 -1.2 6.7c-0.9 5-0.2 7.6 3.8 7.6l3.9 8.7c-2.8 0.3-5.6 0.8-9.2 0.8 -12.9 0-15-5.6-13.2-15.5l3.1-16.9 -4.8 0c1 3.6 0.9 7.8 0.1 12.3l-0.5 2.6H93.9c-0.2 5.7 3.7 8 10.8 8 2.3 0 4.9-0.3 7.6-1l3.7 8c-4.9 1.8-10.3 2.6-15.6 2.6 -13.8 0-22.8-8-20.3-21.7 2.5-13.7 13.3-21.6 26.3-21.6 9.5 0 14.5 4.1 16.4 10.2l0.6-2.3L146 3.9l-1.9 10.2h19.4l0.6-3.1h-9.6l2-11h38.3l-2 11H178.9zM104.8 22.2c-5.2 0-8.4 3.9-9.6 8.7h16C112.1 26.1 110.6 22.2 104.8 22.2zM228.4 0l-10.2 55.5h14.4L242.8 0H228.4zM209.5 45.7l3.3 7.4 -0.1 0.8c-5 1.8-10.4 2.6-15.8 2.6 -13.8 0-22.8-8-20.3-21.7 2.5-13.7 13.3-21.6 26.3-21.6 15.4 0 19.1 10.9 16.8 23.2l-0.5 2.6h-28.8c-0.2 5.7 3.7 8 10.8 8C203.8 46.9 206.6 46.6 209.5 45.7zM191.8 30.9h16c0.9-4.8-0.7-8.7-6.4-8.7C196.2 22.2 193 26.1 191.8 30.9z"/><polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="0 79 179.1 61.5 3.2 61.5 "/><path fill="#FFFFFF" d="M243.2 43.2c3.3 0 5.8 2.6 5.8 5.9 0 3.3-2.6 5.9-5.9 5.9 -3.3 0-5.9-2.6-5.9-5.9C237.2 45.8 239.9 43.2 243.2 43.2L243.2 43.2zM243.1 44.1c-2.6 0-4.8 2.2-4.8 5 0 2.8 2.1 5 4.8 5 2.6 0 4.8-2.2 4.8-5C247.9 46.4 245.8 44.1 243.1 44.1L243.1 44.1zM242 52.6H241V46c0.6-0.1 1.1-0.2 1.9-0.2 1 0 1.7 0.2 2.1 0.5 0.4 0.3 0.6 0.7 0.6 1.4 0 0.9-0.6 1.4-1.3 1.6v0.1c0.6 0.1 1 0.6 1.1 1.6 0.2 1 0.3 1.4 0.4 1.6h-1.1c-0.2-0.2-0.3-0.8-0.5-1.7 -0.2-0.8-0.6-1.2-1.4-1.2H242V52.6zM242 48.9h0.8c0.9 0 1.6-0.3 1.6-1.1 0-0.6-0.4-1.2-1.6-1.2 -0.3 0-0.6 0-0.8 0.1V48.9z"/></svg>
+            </div>
+        </div>
+        <div class="row">
+            <div class="devider"></div>
+        </div>
+        <div class="row">
+            <div class="offset-by-four four columns">
+                <div class="error-sign">
+                    <svg class="svg" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                        <defs>
+                            <path d="M90.3553391,0 L123.589358,33.2340187 L88.2340187,68.5893578 L55,35.3553391 L90.3553391,0 Z M35.3553391,47 L68.5893578,80.2340187 L33.2340187,115.589358 L7.10542736e-15,82.3553391 L35.3553391,47 Z" id="path-1"></path>
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                            <g id="Artboard-1" sketch:type="MSArtboardGroup">
+                                <g id="Group-5" sketch:type="MSLayerGroup" transform="translate(-21.000000, -17.000000)">
+                                    <g id="Group-3" transform="translate(26.000000, 22.000000)" sketch:type="MSShapeGroup">
+                                        <path d="M30.7962125,22.0997052 C31.5720109,20.2198856 32,18.1599239 32,16 C32,7.163444 24.836556,0 16,0 C14.1296594,0 12.3342737,0.320920321 10.6659039,0.910700067 L18.7500835,8.99487966 C21.446492,11.6912882 21.4431048,16.0664173 18.754761,18.754761 C16.0609359,21.4485862 11.6948416,21.4500455 8.99487966,18.7500835 L0.910700067,10.6659039 C0.320920321,12.3342737 0,14.1296594 0,16 C0,24.836556 7.163444,32 16,32 C18.1599252,32 20.2198881,31.5720104 22.0997088,30.7962111 L58.7800123,68.3606744 C61.2952569,70.9365478 65.4909457,70.84266 68.1668041,68.1668016 C70.8372177,65.496388 70.9294623,61.2883333 68.3606769,58.7800098 L30.7962125,22.0997052 Z" id="Oval-1" stroke="#F6A623" stroke-width="2"></path>
+                                        <circle id="Oval-2" fill="#F6A623" cx="63" cy="63" r="3"></circle>
+                                    </g>
+                                    <g id="Group-4">
+                                        <mask id="mask-2" sketch:name="Mask" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                                        <g id="Group-2" mask="url(#mask-2)">
+                                            <g transform="translate(61.941964, 55.212155) rotate(-315.000000) translate(-61.941964, -55.212155) translate(52.441964, 8.712155)">
+                                                <path d="M12.0570809,13.2254161 L12.0570809,46.036127 L13.6401887,46.036127 C16.3980125,46.036127 18.6336705,48.2721029 18.6336705,51.0284677 L18.6336705,84.0796664 C18.6336705,88.4938507 15.051941,92.0722541 10.6367033,92.0722541 L7.99696719,92.0722541 C3.58036417,92.0722541 1.42108547e-14,88.4981835 1.42108547e-14,84.0796664 L1.42108547e-14,51.0284677 C1.42108547e-14,48.2712741 2.24765604,46.036127 4.99348173,46.036127 L6.57658958,46.036127 L6.57658958,13.2249663 C5.3954722,11.9515869 4.38439305,10.5225433 4.38439305,10.5225433 L6.65759437,-2.84217094e-14 L11.9760761,-2.84217094e-14 L14.2492774,10.5225433 C14.2492774,10.5225433 13.2382724,11.9519234 12.0570809,13.2254161 Z" id="Rectangle-2" stroke="#F6A623" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                                                <g id="Group" stroke="none" stroke-width="1" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(5.480491, 54.804913)">
+                                                    <rect id="Rectangle-4" fill="#F6A623" sketch:type="MSShapeGroup" x="5.48049131" y="0" width="2.19219653" height="31.7868496" rx="2"></rect>
+                                                    <rect id="Rectangle-4-Copy" fill="#F6A623" sketch:type="MSShapeGroup" x="0" y="0" width="2.19219653" height="31.7868496" rx="2"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="msg">
+                <h1>We'll be back soon.</h1>
+                <h6>This site is undergoing maintenance for an extended period today.<br>Please check back later. Thanks for your patience.</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bottom-devider"> </div>
+        </div>
+        <div class="row">
+           <div>
+              <h2>Contact Us</h2>
+           </div>
+        </div>
+        <div class="row">
+            <div class="contact-us">
+                <div class="tel-numbers"><a href="tel:1-212-5151-1212"><span class="fa fa-phone" id="phone-icon"></span>   (212)-5151-1212</a><span id="or">&nbsp;&nbsp;&nbsp;or</span>
+                </div>
+                <div class="email-button"><a class="button button-primary" href="mailto:zmi@mettel.net?Subject=Maintenance%20page" target="_top"><span class="fa fa-envelope"></span>Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
