@@ -1,0 +1,17 @@
+.icon {
+  font-family: "mettel-icons";
+  display: inline-block;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+.icon-name {
+  display: inline-block;
+}
+@font-face {
+  font-family: "mettel-icons";
+  src: url("./fonts/mettel-icons.eot");
+  src: url("./fonts//mettel-icons.eot?#iefix") format("embedded-opentype"), url("./fonts/mettel-icons.woff") format("woff"), url("./fonts/mettel-icons.ttf") format("truetype"), url("./fonts/mettel-icons.svg?#mettel-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
