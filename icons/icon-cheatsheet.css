@@ -21,6 +21,20 @@ body {
   text-align: center;
   padding: 10px 20px;
 }
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+li + li {
+  padding-left: 5px;
+}
+
+li:first-child {
+  padding-left: 0;
+
+}
+
 @font-face {
   font-family: "mettel-icons";
   src: url("./fonts/mettel-icons.eot");
