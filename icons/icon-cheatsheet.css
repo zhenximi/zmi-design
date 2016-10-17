@@ -34,11 +34,14 @@ li:first-child {
   padding-left: 0;
 
 }
+.current {
+  color: red;
+}
 
 @font-face {
   font-family: "mettel-icons";
-  src: url("./fonts/mettel-icons.eot");
-  src: url("./fonts//mettel-icons.eot?#iefix") format("embedded-opentype"), url("./fonts/mettel-icons.woff") format("woff"), url("./fonts/mettel-icons.ttf") format("truetype"), url("./fonts/mettel-icons.svg?#mettel-icons") format("svg");
+  src: url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.eot");
+  src: url("./fonts//mettel-icons.eot?#iefix") format("embedded-opentype"), url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.woff") format("woff"), url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.ttf") format("truetype"), url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.svg?#mettel-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
