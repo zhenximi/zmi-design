@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>dynamic email</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body style="margin: 0; padding: 0; background: #EBEBEB;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+        <tr>
+            <td align="center" bgcolor="#EBEBEB" style="padding: 30px 10px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="650">
+
+                    <!-- _EmailHeaderNewTemplate-->
+                    <tr>
+                        <td id="render-partial" align="center" bgcolor="#EBEBEB" style="padding: 30px;">
+                            <script>
+                                // var templates = ['branding', 'dilimiter-without-shadow', 'statement', 'inner-dilimiter-without-dark-line', 'dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
+                                var templates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'setupinfo','dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
+                                // var templates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'productInfo','dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
+                                $(function() {
+                                    $.each(templates, function(index, value) {
+                                        console.log("hello")
+                                        var file = './partial/' + value + '.html';
+                                        console.log(file);
+                                        var divId = value + index;
+                                        var $div = $("<table>", {
+                                            id: divId,
+                                            summary: value,
+                                            border: 0,
+                                            cellpadding: 0,
+                                            cellspacing: 0,
+                                            width: 600
+                                        });
+                                        $('#render-partial').append($div);
+                                        $('#render-partial>#' + divId).load(file);
+                                    });
+                                });
+                            </script>
+                        </td>
+                    </tr>
+                    <!-- _EmailFooterTemplate -->
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
