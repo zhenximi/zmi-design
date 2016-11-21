@@ -1,0 +1,13 @@
+body {
+  font-size: 14px;
+}
+#pagewrapper {
+  padding-top: 5%;
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#example {
+  font-size: .8rem;
+}

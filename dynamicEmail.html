@@ -8,7 +8,7 @@
 </head>
 
 <body style="margin: 0; padding: 0; background: #EBEBEB;">
-    <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: #EBEBEB;">
         <tr>
             <td align="center" bgcolor="#EBEBEB" style="padding: 30px 10px;">
                 <table border="0" cellpadding="0" cellspacing="0" width="650">
@@ -18,10 +18,10 @@
                         <td id="render-partial" align="center" bgcolor="#EBEBEB" style="padding: 30px;">
                             <script>
                                 // var templates = ['branding', 'dilimiter-without-shadow', 'statement', 'inner-dilimiter-without-dark-line', 'dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
-                                var templates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'setupInfo','dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
-                                // var templates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'productInfo','dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
+                                var newUserSetupTemplates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'setupInfo','dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
+                                var reportTemplates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'detailInfo','dilimiter-with-shadow', 'footer'];
                                 $(function() {
-                                    $.each(templates, function(index, value) {
+                                    $.each(newUserSetupTemplates, function(index, value) {
                                         console.log("hello")
                                         var file = './partial/' + value + '.html';
                                         console.log(file);
@@ -41,7 +41,6 @@
                             </script>
                         </td>
                     </tr>
-                    <!-- _EmailFooterTemplate -->
                 </table>
             </td>
         </tr>
