@@ -11,3 +11,7 @@ body {
 #example {
   font-size: .8rem;
 }
+
+#sample2 {
+  @include 'http://w2ui.com/src/w2ui-1.5.rc1.min.css';
+}
