@@ -17,7 +17,7 @@ $(document).ready(function() {
     // });
     $('#sample').DataTable( {
       ajax: {
-        url: "/data/objects.txt",
+        url: "zmi-design/data/objects.txt",
         type: "GET"
       },
       columns: [{
