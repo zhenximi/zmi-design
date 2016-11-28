@@ -16,7 +16,10 @@ $(document).ready(function() {
     //     }]
     // });
     $('#sample').DataTable( {
-      ajax: "/data/objects.txt",
+      ajax: {
+        url: "/data/objects.txt",
+        type: "GET"
+      },
       columns: [{
           "data": "Date"
       }, {
