@@ -16,8 +16,13 @@ $(document).ready(function() {
     //     }]
     // });
     $('#sample').DataTable( {
+      deferRender:    true,
+      scrollY:        200,
+      scrollCollapse: true,
+      scroller:       true,
+      stateSave:      true,
       ajax: {
-        url: "data/objects.txt",
+      url: "data/objects.txt",
         type: "GET"
       },
       columns: [{
@@ -28,12 +33,7 @@ $(document).ready(function() {
           "data": "TypeType"
       }, {
           "data": "UsageUsage"
-      }],
-        deferRender:    true,
-        scrollY:        200,
-        scrollCollapse: true,
-        scroller:       true,
-        stateSave:      true
+      }]
     } );
     $('#sample2').DataTable ( {
         serverSide: true,
