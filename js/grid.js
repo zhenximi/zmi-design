@@ -1,25 +1,69 @@
 $(document).ready(function() {
-    $('#sample').DataTable({
-        "scrollY": 300,
-        "scrollCollapse": true,
-        "deferRender": true,
-        "scroller": true,
-        "paging": false,
-        "processing": true,
-        "serverSide": true,
-        "searching": true,
-        "info": true,
-        "ajax": "data/objects.txt",
-        "columns": [{
-            "data": "Date"
-        }, {
-            "data": "ServiceService"
-        }, {
-            "data": "TypeType"
-        }, {
-            "data": "UsageUsage"
-        }]
-    });
+    // $('#sample').DataTable({
+    //     "scrollY": 300,
+    //     "paging": false,
+    //     "searching": false,
+    //     "info": true,
+    //     "ajax": "data/objects.txt",
+    //     "columns": [{
+    //         "data": "Date"
+    //     }, {
+    //         "data": "ServiceService"
+    //     }, {
+    //         "data": "TypeType"
+    //     }, {
+    //         "data": "UsageUsage"
+    //     }]
+    // });
+    $('#sample').DataTable( {
+      ajax: "/data/objects.txt",
+      columns: [{
+          "data": "Date"
+      }, {
+          "data": "ServiceService"
+      }, {
+          "data": "TypeType"
+      }, {
+          "data": "UsageUsage"
+      }],
+        deferRender:    true,
+        scrollY:        200,
+        scrollCollapse: true,
+        scroller:       true,
+        stateSave:      true
+    } );
+    $('#sample2').DataTable ( {
+        serverSide: true,
+        ordering: false,
+        processing: true,
+        searching: false,
+        ajax: function ( data, callback, settings ) {
+            var out = [];
+
+            for ( var i=data.start, ien=data.start+data.length ; i<ien ; i++ ) {
+                out.push( [ i+'-1', i+'-2', i+'-3', i+'-4', i+'-5' ] );
+            }
+
+            setTimeout( function () {
+                callback( {
+                    draw: data.draw,
+                    data: out,
+                    recordsTotal: 12217,
+                    recordsFiltered: 12217
+                } );
+            }, 1 );
+        },
+        deferLoading: [300, 500],
+        scrollY: 200,
+        scroller: {
+            loadingIndicator: true,
+            serverWait: 100,
+            displayBuffer: 50
+        },
+        language: {
+          "loadingRecords": "Please wait - get records from server..."
+        }
+    } );
     $(function() {
         $('#grid').w2grid({
             name: 'grid',
