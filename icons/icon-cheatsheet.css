@@ -40,8 +40,8 @@ li:first-child {
 
 @font-face {
   font-family: "mettel-icons";
-  src: url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.eot");
-  src: url("./fonts//mettel-icons.eot?#iefix") format("embedded-opentype"), url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.woff") format("woff"), url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.ttf") format("truetype"), url("http://portal.devbruin.com/Assets/fonts/mettel-webfont/mettel-icons.svg?#mettel-icons") format("svg");
+  src: url("../fonts/mettel-webfont/mettel-icons.eot");
+  src: url("../fonts/mettel-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/mettel-webfont/mettel-icons.woff") format("woff"), url("../fonts/mettel-webfont/mettel-icons.ttf") format("truetype"), url("../fonts/mettel-webfont/mettel-icons.svg?#mettel-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
