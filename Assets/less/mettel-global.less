@@ -1,0 +1,74 @@
+// -------------------------------------------------------------------
+// MetTel Global Styles
+
+// -------------------------------------------------------------------
+// Global Styles
+// Be extremely careful when adding html element styling. In almost
+// all cases that should be avoided.
+// -------------------------------------------------------------------
+
+// Set a base size for rem sizing
+html {
+    font-size: 10px;
+}
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.mettel-page {
+    .box-sizing(border-box);
+    font-family: @ProximaNovaRegular;
+    .font-size(@base-font-size);
+    color: @grey-80;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    padding-bottom: 32px;
+    padding-top: 45px;
+
+    &.mettel-state-fixed {
+        overflow: hidden;
+    }
+
+}
+
+.mettel-page-title {
+    .font-size(24);
+    font-family: @ProximaNovaThin;
+    color: @grey-80;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.mettel-accessible-text,
+.mettel-state-hidden {
+    display: none;
+}
+
+a.mettel-link,
+.mettel-link {
+    color: @secondary-light-blue;
+    text-decoration: none;
+
+    &:hover {
+        color: lighten(@secondary-light-blue, 15%);
+    }
+
+    &:active {
+        color: darken(@secondary-light-blue, 10%);
+    }
+
+}
+
+.mettel-item-count {
+    padding: 4px 7px 5px;
+    font-family: @ProximaNovaBold;
+    .font-size(11);
+    line-height: 1;
+    background-color: @grey-30;
+    color: @white;
+    .border-radius(50px);
+}

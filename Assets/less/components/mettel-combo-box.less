@@ -1,0 +1,121 @@
+// -------------------------------------------------------------------
+// MetTel Combo Box Component Styles
+
+// -------------------------------------------------------------------
+// Extended Style
+
+.mettel-base-combo-box {
+
+    padding: 10px;
+    background-color: @grey-05;
+    .border-radius(3px);
+    position: relative;
+
+    select {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        border: none;
+        background: none;
+        position: absolute;
+        .opacity(0);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    & > span {
+        display: block;
+        color: @grey-50;
+        line-height: 1;
+        .mettel-icon-caret-down;
+
+        &:before {
+            position: absolute;
+        }
+
+    }
+    option {
+        background-color: @white;
+        color: @black;
+    }
+
+}
+
+// -------------------------------------------------------------------
+// Combobox Text
+
+.mettel-combo-box {
+    &:extend(.mettel-base-combo-box all);
+    font-family: @ProximaNovaRegularItalic;
+    .font-size(@base-font-size);
+
+    & > span {
+
+        padding-right: 25px;
+        &:before {
+            .font-size(18);
+            right: 15px;
+            top: 9px;
+        }
+    }
+
+    &.disabled {
+        background-color: @white;
+        border: 1px solid @grey-20;
+
+        & > span {
+            color: @grey-20;
+        }
+    }
+
+}
+
+// -------------------------------------------------------------------
+// Base Combo Box Icon
+
+.mettel-combo-box-icon {
+    &:extend(.mettel-base-combo-box all);
+    line-height: 1;
+    width: 21px;
+    text-align: center;
+
+    &:before {
+        color: @grey-50;
+        .font-size(21);
+    }
+
+    select {
+        width: 41px;
+
+        .lt-ie9 & {
+            &:focus {
+                width: auto;
+            }
+            &:not(:focus) {
+                width: 100%;
+            }
+        }
+    }
+
+    > span {
+        display: none;
+    }
+}
+
+.mettel-combo-box-icon-gear {
+    &:extend(.mettel-base-combo-box all, .mettel-combo-box-icon all);
+    .mettel-icon-gear;
+
+    .mettel-utility-actions & {
+        padding-top: 8px;
+
+        .lt-ie9 & {
+            &:before {
+                .font-size(24);
+            }
+        }
+    }
+}

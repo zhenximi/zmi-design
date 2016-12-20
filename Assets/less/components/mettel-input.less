@@ -1,0 +1,67 @@
+// -------------------------------------------------------------------
+// MetTel Input Component Styles
+
+.mettel-input::-ms-clear {
+    display: none;
+}
+
+.mettel-input {
+    &:extend(.mettel-value all);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: @grey-05;
+    border: none;
+    .border-radius(3px);
+
+    &:focus {
+        outline: auto 2px -webkit-focus-ring-color;
+    }
+
+    &:disabled {
+        background-color: transparent;
+    }
+
+}
+
+.mettel-textarea {
+    &:extend(.mettel-value all, .mettel-input all);
+    resize: none;
+}
+
+.mettel-search {
+    display: inline-block;
+    position: relative;
+    .mettel-icon-search-alt;
+
+    &:before {
+       position: absolute;
+       top: 7px;
+       right: 12px;
+       .font-size(20);
+       color: @grey-50;
+    }
+
+    .mettel-search-input {
+        &:extend(.mettel-input all);
+        padding-right: 40px;
+
+        &::-webkit-input-placeholder {
+           font-family: @ProximaNovaRegularItalic;
+        }
+
+        &:-moz-placeholder {
+           font-family: @ProximaNovaRegularItalic;
+        }
+
+        &::-moz-placeholder {
+           font-family: @ProximaNovaRegularItalic;
+        }
+
+        &:-ms-input-placeholder {
+           font-family: @ProximaNovaRegularItalic;
+        }
+    }
+
+}
+

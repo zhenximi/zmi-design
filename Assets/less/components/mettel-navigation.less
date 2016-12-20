@@ -1,0 +1,324 @@
+// -------------------------------------------------------------------
+// MetTel navigation Styles
+
+/* variables */
+@duration: 0.25s;   /* require change to js as well */
+@nav-width: 193px;
+@hover-color: #8ac008;
+@action-color: #3a4557;
+@page-color: #2d3849;
+@border-color: #2d3849;
+@submenu-color: #8ac008;
+@submenu-hover-color: #c4e575;
+@submenu-link-color: #fff;
+@submenu-action-color: #6aa804;
+
+/* mixins */
+.transform(@width) {
+  -webkit-transform: translate(@width, 0);
+  transform: translate(@width, 0);
+}
+.transition(@duration:0.25s) {
+  -webkit-transition: all @duration;
+  transition: all @duration;
+}
+
+.canvas-sliding {
+  .transition(@duration);
+}
+
+.mettel-navigation {
+  display: none;
+  width: @nav-width;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  .font-size(12);
+  z-index: 1030;
+  background-color: @secondary-dark-blue;
+  overflow-x: hidden;
+  overflow-y: auto;
+  .transform(@nav-width * -1);
+
+  &.in {
+    display: block;
+  }
+
+  .mettel-button-close {
+    .mettel-icon-close;
+    border: 0;
+    background-color: #101927;
+    text-decoration: none;
+    height: 44px;
+    color: @secondary-light-blue;
+    display: block;
+    width: 64px;
+    position: relative;
+
+    &:hover {
+      background-color: #202f44;
+      color: #5bc2f1;
+    }
+  }
+  /*.mettel-icon-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+  }*/
+}
+
+.mettel-navigation-clients {
+  border-top: 1px solid @border-color;
+  background-color: @secondary-dark-blue;
+
+  > a {
+    color: @white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    padding: 8px 15px;
+    i {
+      float: right;
+      color: @secondary-light-blue;
+    }
+
+    &:hover {
+      background-color: @hover-color;
+      i {
+        color: @white;
+      }
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    position: relative;
+
+    a {
+      color: @white;
+      padding: 5px 15px 2px;
+      display: block;
+      position: relative;
+      text-decoration: none;
+
+      span {
+        display: inline-block;
+        padding: 3px 0 3px 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 15px;
+        max-width: 135px;
+      }
+    }
+    .mettel-icon-star-filled,
+    .mettel-icon-star-outline {
+      position: absolute;
+      padding: 0;
+      left: 15px;
+      top: 7px;
+      color: @secondary-light-blue;
+      text-decoration: none;
+      z-index: 2;
+      font-size: 120%;
+      cursor: pointer;
+    }
+
+    &:hover {
+      background-color: @hover-color;
+
+      .mettel-icon-star-filled,
+      .mettel-icon-star-outline {
+        color: @white;
+      }
+    }
+
+    &.mettel-state-selected {
+      span {
+        background-color: @secondary-light-blue;
+        padding-right: 15px;
+        margin-left: -8px;
+        padding-left: 28px;
+      }
+      .mettel-icon-star-filled,
+      .mettel-icon-star-outline {
+        color: @white;
+      }
+      &:hover span {
+        background-color: #6AA804;
+      }
+    }
+  }
+}
+.mettel-navigation-menu {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid @border-color;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+  }
+  li {
+    position: relative;
+  }
+  > li {
+    border-bottom: 1px solid @border-color;
+  }
+  .mettel-state-selected {
+    .mettel-navigation-item,
+    .mettel-navigation-item-action,
+    .mettel-navigation-item-page {
+      background-color: @secondary-light-blue;
+      padding-right: 25px;
+      color: @white;
+
+      &:before {
+        font-family:"mettel-icons";
+        display:inline-block;
+        font-weight:normal;
+        font-style:normal;
+        text-decoration:inherit;
+        content:"\e008";
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        color: @white;
+      }
+    }
+    .mettel-navigation-item-action i {
+      color: @white;
+    }
+  }
+}
+.mettel-navigation-item {
+  padding: 8px 15px;
+  color: @secondary-light-blue;
+  display: block;
+  text-decoration: none;
+  background-color: @secondary-dark-blue;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:hover,
+  &.mettel-state-hover {
+    background-color: @hover-color;
+    color: @white;
+  }
+}
+
+.mettel-navigation-item-page,
+.mettel-navigation-item-action {
+  &:extend(.mettel-navigation-item);
+  &:hover{
+    &:extend(.mettel-navigation-item:hover);
+  }
+
+}
+.mettel-navigation-item-page {
+  background-color: @page-color;
+}
+.mettel-navigation-item-action {
+  background-color: @action-color;
+
+  i {
+    padding-right: 5px;
+    color: @secondary-light-blue;
+  }
+  &:hover i {
+    color: @white;
+  }
+}
+.mettel-navigation-submenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  width: @nav-width;
+  border-radius: 0 1px 0 0;
+  border-bottom: 3px solid rgba(0,0,0, 0.15);
+
+  li {
+    position: relative;
+    a {
+      color: @submenu-link-color;
+      .font-size(12);
+
+      &:hover {
+        color: @submenu-hover-color;
+      }
+    }
+  }
+
+  li:first-child a {
+    border-radius: 0 1px 0 0;
+  }
+
+  .mettel-navigation-item-page {
+    background-color: @submenu-color;
+  }
+  .mettel-navigation-item-action {
+    background-color: @submenu-action-color;
+
+    i {
+      padding-right: 5px;
+      color: @submenu-hover-color;
+    }
+    &:hover i {
+      color: @submenu-hover-color;
+    }
+  }
+}
+.mettel-state-collapsed {
+  ul {
+    display: none;
+  }
+}
+
+.mettel-state-expanded {
+  ul {
+    display: block;
+  }
+  .mettel-navigation-item {
+    background-color: @page-color;
+    color: @white;
+    font-weight: bold;
+    .font-size(14);
+    /*  removing hover state of expanded parent node
+    &:hover {
+      background-color: @hover-color;
+      color: @white;
+    }*/
+  }
+  .mettel-navigation-item-page,
+  .mettel-navigation-item-action {
+    color: @white;
+  }
+}
+
+.mettel-main-navigation-breadcrumb {
+  .mettel-clearfix;
+  margin: 0;
+  padding: 0;
+  float: left;
+  .font-size(18);
+  .line-height(45);
+  margin-left: 15px;
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+  list-style: none;
+
+  li {
+    float: left;
+    a {
+      color: @white;
+      text-decoration: none;
+    }
+  }
+}

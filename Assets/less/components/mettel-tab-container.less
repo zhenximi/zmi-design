@@ -1,0 +1,137 @@
+// -------------------------------------------------------------------
+// MetTel Tab Container Component Styles
+
+.mettel-tab-navigation,
+.mettel-tab-bar {
+    background-color: @grey-10;
+    padding: 0;
+    margin: 0;
+}
+
+.mettel-tab-bar {
+    .mettel-clearfix;
+}
+
+.mettel-tab-item {
+    list-style-type: none;
+    position: relative;
+    .user-select(none);
+
+    .mettel-link {
+        display: block;
+        padding: 20px 60px 20px 15px;
+        .font-size(@base-font-size);
+        font-family: @ProximaNovaBold;
+        text-transform: uppercase;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &.mettel-state-active {
+        background-color: @white;
+
+        .mettel-link {
+            color: @secondary-green;
+
+            .mettel-item-count {
+                background-color: @grey-10;
+                color: @grey-50;
+            }
+        }
+
+    }
+
+    .mettel-item-count {
+        position: absolute;
+        right: 10px;
+        &:extend(.mettel-item-count all);
+    }
+
+}
+
+.mettel-tab-content {
+    display: none;
+    .box-sizing(border-box);
+    padding: 20px;
+
+    &.mettel-state-active {
+        display: block;
+    }
+}
+
+
+.mettel-tab-container-horizontal,
+.mettel-tab-bar {
+
+    .mettel-tab-navigation {
+        .mettel-clearfix;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mettel-tab-item {
+        float: left;
+        border-top: 1px solid @grey-10;
+        border-right: 1px solid @grey-20;
+        border-bottom: 1px solid @grey-10;
+        border-left: 1px solid @grey-10;
+
+        &.mettel-state-active {
+            border-bottom: 1px solid @white;
+
+            .mettel-tab-item-count {
+                color: @grey-50;
+                background-color: @grey-10;
+            }
+        }
+
+        .mettel-link {
+            max-width: 205px;
+        }
+
+    }
+
+}
+
+.mettel-tab-container-vertical {
+    .mettel-clearfix;
+
+    .mettel-tab-navigation {
+        float: left;
+        width: 25%;
+
+        .mettel-tab-item {
+            .box-sizing(border-box);
+            display: block;
+            width: 100%;
+            border-top: 1px solid @grey-10;
+            border-right: 1px solid @grey-10;
+            border-bottom: 1px solid @grey-20;
+            border-left: 1px solid @grey-10;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            &.mettel-state-active {
+                border-right: 1px solid @white;
+
+                .mettel-tab-item-count {
+                    color: @grey-50;
+                    background-color: @grey-10;
+                }
+            }
+
+            .mettel-link {
+                max-width: 100%;
+            }
+
+        }
+
+    }
+
+    .mettel-tab-content {
+        float: left;
+        width: 75%;
+    }
+
+}

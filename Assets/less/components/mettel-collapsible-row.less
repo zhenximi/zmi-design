@@ -1,0 +1,167 @@
+// -------------------------------------------------------------------
+// MetTel Collapsible Row Component Styles
+
+// Shared Styles
+
+// Component Defaults
+.mettel-collapsible-indicator-container {
+    position: relative;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.mettel-collapsible-indicator {
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 33px;
+    height: 100%;
+    text-align: center;
+    background-color: @white;
+    cursor: pointer;
+
+    .mettel-icon-triangle-right;
+
+    &:before {
+        position: absolute;
+        top: 50%;
+        margin-top: -6px;
+        left: 11px;
+        text-align: center;
+        color: @grey-50;
+    }
+
+}
+
+.mettel-table-row-expandable,
+.mettel-table-row-expandable-content {
+
+    .mettel-table-cell {
+       word-wrap: break-word;
+    }
+
+    .mettel-table-cell:first-child {
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        outline: none;
+    }
+}
+
+.mettel-table-row-expandable {
+
+    .line-height(12);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: @grey-10;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lighten(@secondary-light-blue, 35%);
+    }
+
+    &:active {
+        background-color: lighten(@secondary-light-blue, 30%);
+    }
+
+    > .mettel-table-cell {
+
+        &:first-child {
+
+            padding: 0;
+            vertical-align: middle;
+
+            &:hover:before {
+                color: @grey-40;
+            }
+
+            &:active:before {
+                color: @grey-60;
+            }
+        }
+    }
+
+    &.mettel-state-expanded {
+
+        color: @white;
+        background-color: @secondary-light-blue;
+        border-bottom-width: 0;
+
+        &:hover {
+            background-color: lighten(@secondary-light-blue, 10%);
+        }
+
+        &:active {
+            background-color: lighten(@secondary-light-blue, 5%);
+        }
+
+        > .mettel-table-cell:first-child {
+            .mettel-collapsible-indicator {
+                .mettel-icon-triangle-down;
+                .box-shadow(0 1px 0 0 @white);
+            }
+        }
+    }
+
+}
+
+.mettel-table-row-expandable-content {
+
+    display: none;
+    line-height: 1;
+
+    .mettel-table-cell {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: @white;
+        background-color: lighten(@secondary-light-blue, 40%);
+        .lt-ie10 & {
+            border-bottom-width: 0;
+        }
+    }
+
+    &.mettel-state-visible {
+        display: table-row;
+        .mettel-collapsible-indicator{
+            .box-shadow(0 1px 0 0 @white);
+        }
+    }
+
+    .mettel-collapsible-indicator {
+        cursor: default;
+        &:before {
+            color: @white;
+        }
+    }
+}
+
+.mettel-table-cell-sub-grid {
+    background-color: @white;
+    padding: 0 0 0 33px;
+
+    .mettel-table {
+
+        .mettel-table-head {
+
+            .mettel-table-head-cell {
+                background-color: lighten(@secondary-light-blue, 30%);
+                color: darken(@secondary-light-blue, 10%);
+                border: none;
+                text-shadow: none;
+                padding-left: 8px;
+                font-weight: normal;
+            }
+        }
+
+        .mettel-table-cell {
+            background-color: lighten(@secondary-light-blue, 40%);
+            padding-left: 8px;
+        }
+
+    }
+}

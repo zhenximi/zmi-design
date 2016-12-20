@@ -1,0 +1,64 @@
+// Page specific styling for Location Detail Template in MetTel Environment
+
+.mettel-location-details {
+
+    display: table;
+
+    .mettel-location-details-hierarchy {
+        display: table-cell;
+        vertical-align: top;
+        border-right: 1px solid @grey-05;
+    }
+
+    .mettel-location-details-body {
+        display: table-cell;
+        .box-sizing(border-box);
+        padding: 20px;
+    }
+
+    .mettel-location-details-toolbar {
+
+        .mettel-clearfix;
+        padding-bottom: 20px;
+
+        .mettel-location-details-ticket-bar {
+            float:left;
+        }
+
+        .mettel-location-details-actions {
+            float:right;
+        }
+    }
+}
+
+
+.mettel-grid-column-boolean-status {
+    text-align: center;
+    color: @secondary-green;
+    line-height: 1;
+
+    .mettel-grid-row-selected & {
+        color: @white;
+    }
+
+    &:before {
+        .font-size(20);
+    }
+}
+
+.mettel-boolean-status {
+    &:extend(.mettel-grid-column-boolean-status all, .mettel-icon-check all);
+}
+
+.mettel-location-info-header-navigation {
+
+    .mettel-clearfix;
+
+    .mettel-location-info-header-navigation-left {
+        float:left;
+    }
+
+    .mettel-location-info-header-navigation-right {
+        float:right;
+    }
+}

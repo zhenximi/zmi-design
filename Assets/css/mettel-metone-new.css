@@ -1,0 +1,707 @@
+﻿.mettel-radio-shipping-label-strikethrough {
+    text-decoration: line-through;
+    color: #999;
+    display: inline-block;
+    min-width: 45px;
+}
+
+.mettel-radio-shipping-label-green {
+    color: #8ac008;
+}
+
+tfoot.mettel-review-totals .mettel-quantity-column .mettel-review-shipping-choice-label {
+    font-weight: normal !important;
+    font-size: 13px;
+}
+
+.mettel-radio-shipping-label-text {
+    display: inline-block;
+    min-width: 105px;
+}
+
+.mettel-customer-order-container .hierarchy-with-create.mettel-hierarchy-form .chosen-container {
+    position: absolute;
+}
+
+.mettel-customer-order-container .hierarchy-with-create .mettel-hierarchy-entry {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.mettel-customer-order-container .hierarchy-with-create label.mettel-label {
+    position: relative;
+    left: -192px;
+}
+
+.mettel-customer-order-container .hierarchy-with-create .mettel-hierarchy-entry input {
+    position: absolute;
+    width: 175px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.mettel-customer-order-container .hierarchy-with-create .mettel-hierarchy-entry button {
+    position: relative;
+    width: 90px;
+}
+
+.mettel-customer-order-container .hierarchy-with-create.mettel-hierarchy-form .no-entry .mettel-error-message {
+    margin-left: 0;
+    position: relative;
+    top: 7px;
+    width: 250px;
+    left: 150px;
+}
+
+.mettel-customer-order-container .hierarchy-with-create.mettel-hierarchy-form .mettel-new-entry-error-message {
+    position: relative;
+    left: -125px;
+}
+
+.hierarchy-without-create.mettel-hierarchy-form {
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    list-style-type: none;
+    padding: 0;
+}
+
+.hierarchy-without-create.mettel-hierarchy-form .mettel-form-row {
+    width: 100%;
+    margin: 5px 0;
+    float: left;
+    clear: left;
+    margin-top: 5px;
+}
+.mettel-customer-order-container .hierarchy-with-create.mettel-hierarchy-form .mettel-form-row {
+    margin-bottom: 20px;
+}
+
+.mettel-customer-order-container .financial-editor-new .td-new-code {
+    background: rgba(0, 0, 0, 0.025);
+    padding: 10px 10px 0 10px;
+}
+
+.mettel-customer-order-container .mettel-account-create-table.financial-info-table {
+    position: relative;
+    left: 5px;
+}
+
+.mettel-customer-order-container .financial-editor-equalizer div.mettel-input-medium {
+    opacity: 0;
+    width: 280px;
+}
+
+.mettel-customer-order-container .financial-editor-normalizer {
+    min-width: 128px;
+    width: 128px;
+}
+
+.mettel-customer-order-container .financial-info-table .confirm-row {
+    border-top: 1px solid #ddd;
+    padding: 15px 0 0 0;
+    box-sizing: border-box;
+}
+
+.mettel-customer-order-container .financial-info-table .confirm-row .action-buttons-right {
+    position: relative;
+    left: 192px;
+}
+
+.mettel-customer-order-container .financial-info-table .confirm-row .action-buttons-right .mettel-link.cancel {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.mettel-tab-content.tab-code-details .hierarchy-without-create {
+    padding: 0 !important;
+    display: block !important;
+}
+
+.mettel-tab-content.tab-code-details .mettel-fieldset.mettel-hierarchy-form {
+    display: none;
+}
+
+.mettel-ticket-overview .mettel-edit-order-items-button-container {
+    display: none !important;
+}
+
+.mettel-ticket-overview button.mettel-edit-order-section-button {
+    display: none !important;
+}
+
+.mettel-product-sku-on-off-toggle-input-container {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+.mettel-sku-controls {
+    width: 120px !important;
+}
+
+.mettel-sku-controls > button {
+    font-family: "mettel-icons";
+}
+
+.mettel-sku-controls .mettel-sku-on-off {
+    font-family: "mettel-icons";
+    border: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    font-size: 0;
+    color: #2cb0ed;
+    margin-left: 16px;
+}
+
+.mettel-sku-controls .mettel-sku-on-off::after, .mettel-sku-controls .mettel-sku-on-off-toggled::after {
+    font-family: "mettel-icons";
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    color: #2cb0ed;
+}
+
+.mettel-sku-controls .mettel-sku-on-off::before {
+    content: "\e03a";
+    color: #2cb0ed;
+}
+
+.mettel-sku-values-and-controls.mettel-sku-hidden {
+    position: relative;
+}
+
+.mettel-sku-values-and-controls.mettel-sku-hidden:hover::after {
+    display: none;
+}
+
+.mettel-sku-values-and-controls.mettel-sku-hidden::after {
+    font-family: "mettel-icons";
+    content: "\e03a";
+    position: absolute;
+    color: rgb(204, 204, 204);
+    right: 9px;
+    top: 14px;
+}
+
+.mettel-sku-controls .mettel-sku-on-off-toggled::before {
+    content: "\e02e" !important;
+    color: #2cb0ed;
+}
+
+.mettel-privacy-dialog-init {
+    position: relative;
+    font-family: "mettel-icons";
+}
+
+.mettel-privacy-dialog-init::after {
+    content: "\e023";
+    position: absolute;
+    left: -23px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.mettel-privacy-dialog .mettel-client-row {
+    width: 560px;
+    margin: 25px auto 25px auto;
+}
+
+.mettel-privacy-dialog .mettel-client-row > * {
+    display: inline-block;
+}
+
+.mettel-privacy-dialog .mettel-client-row > .client-list {
+    width: 300px;
+    margin-left: 15px;
+}
+
+.mettel-privacy-dialog .mettel-modal-content {
+    position: relative;
+}
+
+.mettel-privacy-dialog .mettel-client-row > button {
+    position: relative;
+    top: 4px;
+}
+
+.mettel-privacy-dialog .mettel-client-row input[type=text] {
+    width: 250px !important;
+}
+
+.mettel-privacy-dialog .mettel-privacy-table {
+    width: 720px;
+}
+
+.mettel-privacy-dialog .mettel-search-submit {
+    border: 0 none;
+}
+
+.mettel-privacy-dialog .mettel-search-submit::before {
+    font-size: 1.5rem;
+}
+.mettel-privacy-dialog .mettel-privacy-table th.mettel-grid-column-0 {
+    width: 15px;
+}
+.mettel-privacy-dialog .mettel-privacy-table .mettel-grid-column-0 {
+    width: 40px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.mettel-privacy-dialog .client-search-wrap {
+    margin-bottom: 40px;
+}
+
+.mettel-privacy-dialog .client-search-wrap #client_search_error {
+    position: absolute;
+    top: 150px;
+}
+
+.mettel-privacy-dialog .client-search-wrap #client_search_error > * {
+    color: red;
+}
+
+.mettel-privacy-dialog .mettel-privacy-table td {
+    text-align: left;
+}
+
+.mettel-privacy-dialog .mettel-scrolling-selector {
+    position:absolute;
+    z-index: 1000;
+}
+
+.mettel-privacy-dialog .mettel-privacy-dialog-scroll-wrap {
+    height: 197px;
+    max-height: 197px;
+    max-width: 720px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.mettel-privacy-table .remove-entry {
+    font-family: "mettel-icons";
+}
+
+.mettel-privacy-table .remove-entry::after {
+    cursor: pointer;
+    content: '';
+    color: #15a7eb;
+}
+
+.mettel-privacy-footer {
+    margin-top: 15px;
+    padding: 35px 10px;
+    background: #e5e5e5;
+}
+
+.mettel-privacy-footer button {
+    position: relative;
+    float: right;
+    top: -13px;
+}
+
+.mettel-privacy-allow-mode {
+    border-bottom: 2px #e5e5e5 solid;
+    padding-bottom: 35px;
+}
+
+.mettel-privacy-allow-mode > span {
+    position: relative;
+    left: -207px;
+    top: 10px;
+}
+
+.mettel-new-ticket-quicksearch-disabled {
+    opacity: 0.25;
+}
+
+.mettel-product-wizard {
+        width: 660px;
+    min-width: 660px;
+}
+
+.mettel-product-wizard .mettel-additional-option-group-options {
+    box-sizing: border-box;
+    padding: 0 !important;
+}
+
+.mettel-product-wizard .mettel-grid-fixed-head.mettel-privacy-table, .mettel-product-wizard .mettel-privacy-dialog-scroll-wrap, .mettel-product-wizard .mettel-privacy-table {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.mettel-custom-options .mettel-row-delete {
+    position: relative;
+    top: -18px;
+    margin-left: 15px;
+}
+
+.mettel-row-edit-cog { 
+    cursor: pointer;
+    color: #15a7eb;
+    font-family: "mettel-icons";
+    padding: 0;
+    border: 0;
+    background: transparent;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: -15px;
+}
+
+.mettel-row-edit-cog::before {
+    font-family: "mettel-icons";
+    content: '\e035';
+    font-size: 14px;
+}
+.mettel-product-wizard ul li:last-child {
+    border-bottom: 0 none;
+}
+
+.mettel-product-wizard ul li:first-child {
+    border-bottom: 1px solid #ededed;
+}
+
+.mettel-product-wizard ul li {
+    padding: 15px 10px 15px 35px;
+    border-bottom: 1px solid #ededed;
+    text-align: left;
+    color: #ededed;
+    cursor: pointer;
+}
+
+.mettel-product-wizard ul li:hover {
+    background-color: #eafaff;
+}
+
+.mettel-product-wizard ul li:hover button::before {
+    color: #42c5f4;
+}
+
+.mettel-product-wizard ul li span {
+    display: block;
+    color: #414141;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.mettel-product-wizard ul li span.move-down {
+    position: relative;
+    top: 7px;
+}
+
+.mettel-product-wizard ul li button, .mettel-lock {
+    background: transparent;
+    border: 0 none;
+    float: right;
+    outline: none;
+}
+
+.mettel-product-wizard ul li button::before, .mettel-lock {
+    font-family: 'mettel-icons';
+    content: '\e014';
+    font-size: 20px;
+    color: #ededed;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    top: -16px;
+}
+
+.mettel-product-wizard .mettel-lock {
+    top: 0px !important;
+}
+
+.mettel-lock::after {
+    content: '\e049' !important;
+    color: #bbb !important;
+    top: 0 !important;
+    height: 16px;
+    width: 16px;
+    top: 0;
+    font-family: 'mettel-icons';
+}
+
+.mettel-lock.locked::after {
+    color: #42c5f4 !important;
+}
+
+.wizard-step-options {
+    margin: -20px;
+}
+
+.wizard-step-options .mettel-new-option-group-form-inner {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wizard-step-options .mettel-privacy-footer {
+    position: relative;
+    bottom: 0;
+    background: #f5f5f5;
+    margin-top: 0 !important;
+}
+
+.mettel-product-wizard .mettel-modal-content {
+    padding-bottom: 0;
+}
+
+.wizard-step-options .mettel-product-catalog-button-blue-text {
+    float: left;
+    position: relative;
+    top: -4px;
+    left: 15px;
+}
+
+.mettel-product-subsection-item-row:hover .mettel-subproduct-quantity {
+    display: block;
+}
+
+.mettel-subproduct-quantity {
+    float: right;
+    position: relative;
+    left: -200px;
+    display: none;
+    width: 30px;
+}
+
+.wizard-option-group-quantity {
+}
+
+.mettel-product-subsection-item-row input[type=number] {
+    padding: 0px;
+}
+
+.mettel-privacy-table tr.mettel-grid-row:nth-child(2n) {
+    background: #f5f5f5;
+}
+
+.mettel-product-wizard ul.sku-editor {
+    height: 415px;
+    min-height: 415px;
+    max-height: 415px;
+    overflow-y: auto;
+}
+
+.mettel-product-wizard ul.sku-editor li.visible span {
+    color: black !important;
+}
+
+.mettel-product-wizard ul.sku-editor li:nth-child(2n) {
+    background: #f5f5f5;
+}
+
+.mettel-product-wizard ul.sku-editor li:nth-child(2n):hover {
+    background-color: #eafaff;
+}
+
+.mettel-product-wizard .sku-editor li span {
+    display: inline-block;
+    width: 33.33%;
+    font-weight: normal;
+    color: #999;
+    box-sizing: border-box;
+}
+
+.mettel-product-wizard .sku-editor li span:first-child {
+    font-weight: bold;
+}
+
+.mettel-product-wizard .mettel-sku-on-off {
+    font-family: "mettel-icons";
+    border: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    font-size: 0;
+    color: #2cb0ed;
+    margin-left: 16px;
+    float: right;
+}
+
+.mettel-product-wizard  .mettel-sku-on-off::before, .mettel-product-wizard .mettel-sku-on-off-toggled::before {
+    font-family: "mettel-icons";
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\e03a" !important;
+    font-size: 14px;
+    color: #999;
+}
+
+.mettel-product-wizard .mettel-sku-on-off-toggled::before {
+    content: "\e02e" !important;
+    color: #2cb0ed;
+}
+
+.sku-editor .sku-visibility {
+    float: right;
+}
+
+.mettel-product-wizard .mettel-privacy-dialog-scroll-wrap {
+    height: 320px;
+    max-height: 320px;
+}
+
+.wizard-step-options.editor {
+    margin-bottom: 0;
+}
+
+.mettel-product-wizard .options-state {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: -15px;
+    top: 6px;
+    vertical-align: middle;
+}
+
+.mettel-product-wizard .options-state.changed {
+    border-radius: 100%;
+    background: #74ca00;
+}
+
+.mettel-product-wizard .options-state.hidden::after {
+    font-family: "mettel-icons";
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\e03a" !important;
+    font-size: 14px;
+    color: #bbb;
+    top: -8px;
+    position: relative;
+}
+
+.mettel-product-wizard ul.options-root li {
+    height: 27px;
+}
+
+.mettel-product-wizard ul li > span {
+    vertical-align: middle;
+}
+
+.mettel-product-wizard .options-amount, .mettel-product-wizard .options-info {
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.mettel-product-wizard .options-info {
+    color: #999;
+    margin-left: 18px;
+    font-style: italic;
+    font-size:11px;
+    width: 450px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mettel-product-wizard .options-amount, .mettel-product-wizard .options-amount > span {
+    color: #999;
+    text-transform: none;
+    display: inline;
+}
+
+.options-list-item.option-hidden span {
+    color: #bbb;
+}
+
+.mettel-product-wizard .options-amount {
+    position: relative;
+    top: -1px;
+}
+
+.mettel-product-wizard .mettel-state-disabled {
+    opacity: 0.25;
+}
+
+.ribbon {
+    position: absolute;
+    left: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#2989d8 0%, #1e5799 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; left: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #1e5799;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #1e5799;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #1e5799;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #1e5799;
+}
+
+.mettel-catalog-recent-ordered .mettel-catalog-product-image-container {
+    position: relative;
+}
+
+.mettel-catalog-recent-ordered .mettel-catalog-product-image-container .ribbon {
+    left: 0px;
+    top: -11px;
+}
+
+.mettel-catalog-recent-ordered .mettel-catalog-product-image-container .ribbon span::after {
+    content: none;
+}
+
+.mettel-catalog-recent-ordered .mettel-catalog-product-image-container .ribbon span::before {
+    content: none;
+}
+.mettel-product-add-option-group-modal .mettel-new-option-group-category-select, .mettel-product-add-option-group-modal .mettel-new-option-group-subcategory-select, .mettel-product-add-option-group-modal .mettel-new-option-group-quantity-select {
+    width: 205px !important;
+}
+
+.mettel-product-add-option-group-modal .mettel-new-option-group-quantity-select span {
+    width: auto !important;
+}
+
+/* Runhui Miao Added*/
+.mettel-ticket-issue-actions-modal-reassign,
+.mettel-ticket-issue-actions-modal-reassign .mettel-modal-content,
+.mettel-ticket-issue-actions-modal-reassign .mettel-modal-content .mettel-ticket-issue-actions-modal-form-inner{
+    overflow: visible !important;
+}
+/* Runhui Miao*/

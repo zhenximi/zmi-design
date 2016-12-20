@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>dynamic email</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js" charset="utf-8"></script>
 </head>
 
 <body style="margin: 0; padding: 0; background: #EBEBEB;">
@@ -12,11 +13,10 @@
         <tr>
             <td align="center" bgcolor="#EBEBEB" style="padding: 30px 10px;">
                 <table border="0" cellpadding="0" cellspacing="0" width="650">
-
-                    <!-- _EmailHeaderNewTemplate-->
                     <tr>
                         <td id="render-partial" align="center" bgcolor="#EBEBEB" style="padding: 30px;">
-                            <script>
+                            <!-- <script id="template" type="x-tmpl-mustache"> -->
+                            <script type="text/javascript">
                                 var welcomeEmailTemplates = ['branding', 'dilimiter-without-shadow', 'statement', 'inner-dilimiter-without-dark-line', 'dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
                                 var newUserPasswordSetupTemplates = ['branding', 'dilimiter-without-shadow', 'newUserStatement', 'setupInfo','dilimiter-with-shadow', 'tutorial', 'dilimiter-with-shadow', 'footer'];
                                 var reportTemplates = ['branding', 'dilimiter-without-shadow', 'reportStatement', 'inner-dilimiter-with-dark-line', 'detailInfo','dilimiter-with-shadow', 'footer'];
@@ -49,5 +49,7 @@
         </tr>
     </table>
 </body>
+
+<!-- <script src="./js/dynamicEmail.js" charset="utf-8"></script> -->
 
 </html>

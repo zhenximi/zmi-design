@@ -1,0 +1,133 @@
+// -------------------------------------------------------------------
+// MetTel Button Bar Component Styles
+
+
+// -------------------------------------------------------------------
+// Common Styles
+
+.mettel-button-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+// -------------------------------------------------------------------
+// Horizontal List / Links
+
+.mettel-button-bar-horizontal(...) {
+
+    .mettel-button-item {
+        display: inline-block;
+        margin-left: -4px; // "Remove" inline-block white-space
+
+        padding-right: 5px;
+        padding-left: 5px;
+        vertical-align: middle;
+
+        &:first-child {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+}
+
+.mettel-button-bar {
+
+    .mettel-button-bar-horizontal;
+
+    .mettel-link {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}
+
+
+// -------------------------------------------------------------------
+// Vertical List
+
+.mettel-button-bar-vertical {
+
+    .mettel-button-item {
+        display: block;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+    }
+
+}
+
+
+// -------------------------------------------------------------------
+// Links List
+
+.mettel-button-bar-container {
+
+    .mettel-button-bar-horizontal;
+    padding: 15px;
+    background: @grey-05;
+
+    .mettel-button {
+        background-color: @grey-10;
+
+        &:hover,
+        &.mettel-state-hover {
+            background-color: @grey-15;
+        }
+
+        &:active,
+        &.mettel-state-active {
+            background-color: @grey-25;
+            outline: none;
+        }
+
+        &:disabled,
+        &.mettel-state-disabled {
+            color: @grey-35;
+            cursor: default;
+        }
+
+        &:disabled:hover,
+        &.mettel-state-disabled:hover {
+            background: darken(@white, 7%);
+        }
+
+    }
+
+}
+
+.mettel-button-bar-separators {
+
+    .mettel-button-bar-horizontal;
+
+    .mettel-button-item {
+        padding-right: 5px;
+        padding-left: 5px;
+        border-right: 1px solid @grey-20;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    .mettel-link {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}

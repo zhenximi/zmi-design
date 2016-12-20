@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>grid test</title>
     <!-- Latest compiled and minified CSS -->
@@ -10,56 +11,71 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.5.rc1.min.css" />
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./js/Libraries/jquery.js"></script>
+    <script src="./js/Libraries/jquery-migrate.js" charset="utf-8"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/scroller/1.4.2/css/scroller.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/mettel-metone.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/mettel-metone-blessed1.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/mettel-metone-blessed2.css">
+
 
 
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-      <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/scroller/1.4.2/js/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/scroller/1.4.2/js/dataTables.scroller.min.js"></script>
 
     <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.5.rc1.min.js"></script>
+
     <link rel="stylesheet" href="./css/grid.css">
     <script type="text/javascript" src="./js/grid.js"></script>
     <script type="text/javascript" src="./js/jquery.tabletojson.js"></script>
 
-  </head>
-  <body>
-    <div id="pagewrapper">
-      <h1 class="text-center">Infinite scroll grid</h1>
-      <p class="text-center">The first one is using local(client) data, the other two are using server-side(ajax) data</p>
-      <div id="data-table-sample">
-        <h2><a href="https://datatables.net/extensions/scroller/examples/initialisation/large_js_source.html">Data Table Example</a></h2>
-        <table id="sample" class="" cellspacing="0" width="100%">
-          <thead>
-              <tr>
-                  <th>Date</th>
-                  <th>Service</th>
-                  <th>Type</th>
-                  <th>Usage</th>
-              </tr>
-          </thead>
-        </table>
-        <div style="padding-top:30px;"></div>
-        <table id="sample2" class="" cellspacing="0" width="100%">
-          <thead>
-            <tr>
-                <th>ID</th>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>ZIP / Post code</th>
-                <th>Country</th>
-            </tr>
-          </thead>
-        </table>
-      </div>
-      <h2><a href="http://w2ui.com/web/blog/7/JavaScript-Grid-with-One-Million-Records">w2ui Example</a></h2>
-      <div id="grid" style="width: 100%; height: 250px;"></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/Libraries/knockout.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/Libraries/knockout-postbox.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/Libraries/knockout.mapping-latest.js" charset="utf-8"></script>
 
-      <!-- <table class="table" id="dataPicker0">
+    <script type="text/javascript" src="./js/mettel-metone.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/mettel-grid.js"></script>
+
+</head>
+
+<body>
+    <div id="pagewrapper">
+        <h1 class="text-center">Infinite scroll grid</h1>
+        <p class="text-center">The first one is using local(client) data, the other two are using server-side(ajax) data</p>
+        <div id="data-table-sample">
+            <h2><a href="https://datatables.net/extensions/scroller/examples/initialisation/large_js_source.html">Data Table Example</a></h2>
+            <table id="sample" class="" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Service</th>
+                        <th>Type</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+            </table>
+            <div style="padding-top:30px;"></div>
+            <table id="sample2" class="" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>ZIP / Post code</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <h2><a href="http://w2ui.com/web/blog/7/JavaScript-Grid-with-One-Million-Records">w2ui Example</a></h2>
+        <div id="grid" style="width: 100%; height: 250px;"></div>
+
+        <!-- <table class="table" id="dataPicker0">
 						<tbody class="ui_body">
 							<tr id="di_datacolumnbar">
 								<th class="" id="startDateHeading"><a class="hiddenForUnbilled" href="javascript:void(0);" data-cycle="4" data-sortdirection="2" data-filter="startDate" id="startDate" style="display: none;">Date &amp; Time (Pacific)</a><span class="shownForUnbilled" style="" id="startDate">Date</span></th>
@@ -675,7 +691,7 @@
 
 
             </table> -->
-      <!-- <table id="example" class="table" cellspacing="0" width="100%">
+        <!-- <table id="example" class="table" cellspacing="0" width="100%">
               <thead>
                   <tr>
                       <th>Name</th>
@@ -1156,5 +1172,8 @@
               </tbody>
           </table> -->
     </div>
-  </body>
+
+
+</body>
+
 </html>

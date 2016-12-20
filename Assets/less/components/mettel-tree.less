@@ -1,0 +1,118 @@
+// -------------------------------------------------------------------
+// MetTel Tree View Component Styles
+
+.selected-state(...) {
+    background-color: @secondary-light-blue;
+    color: @white;
+}
+
+.mettel-tree {
+
+    overflow-y: auto;
+
+    &.mettel-state-inactive,
+    &.mettel-state-hidden {
+        display: none;
+    }
+
+    .mettel-button-icon-open {
+        width: 70px;
+        height: 70px;
+        outline: none;
+    }
+
+    .mettel-tree-list {
+
+        position: absolute;
+        z-index: 999;
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background-color: @grey-05;
+        width: 700px;
+
+    }
+
+    .mettel-tree-item {
+        background-color: @grey-05;
+
+        &.mettel-state-expanded > .mettel-tree-subitems {
+            display: block;
+            padding-left: 35px;
+        }
+
+        &.mettel-state-expanded > .mettel-tree-item-row .mettel-tree-trigger {
+            .mettel-icon-minus;
+        }
+
+    }
+
+    .mettel-tree-item-row {
+        display: table;
+        width: 100%;
+        min-height: 35px;
+        font-family: @ProximaNovaBold;
+        border-bottom: 1px solid @grey-10;
+        color: @grey-70;
+        position: relative;
+    }
+
+    .mettel-tree-trigger {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 35px;
+        border: 0;
+        outline: 0;
+        background-color: @grey-20;
+        color: @white;
+        text-align: center;
+        .mettel-icon-plus;
+
+        &.mettel-state-hidden {
+            display: none;
+        }
+
+    }
+
+    .mettel-tree-item-text {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        padding: 9px 15px 9px 45px;
+        line-height: 1;
+
+        &:hover {
+            cursor: pointer;
+            background-color: @grey-10;
+
+            .mettel-state-selected & {
+                .selected-state;
+            }
+
+        }
+
+        &.mettel-state-selected {
+            .selected-state;
+        }
+
+    }
+
+    .mettel-tree-subitems {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+.mettel-tree-overlay {
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

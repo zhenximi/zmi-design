@@ -1,0 +1,102 @@
+// -------------------------------------------------------------------
+// MetTel Check Box Component Styles
+
+.mettel-checkbox-defaults {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+
+    input {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9;
+        .appearance(none);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        outline: none;
+        cursor: pointer;
+    }
+
+    > span {
+        width: 16px;
+        height: 16px;
+        line-height: 1;
+        display: inline-block;
+        vertical-align: top;
+
+        &.checked {
+            .mettel-icon-check;
+            &:before {
+                color: @white;
+                .font-size(@base-font-size);
+                position: relative;
+                top: 2px;
+                left: 2px;
+            }
+        }
+    }
+
+}
+
+div.checker.mettel-checkbox {
+    &:extend(.mettel-checkbox-defaults all);
+    background-color: darken(@secondary-green, 4%);
+
+    &.disabled {
+        background-color: @secondary-green;
+        border: 1px solid darken(@secondary-green, 10%);
+    }
+
+    > span {
+        &.checked {
+            &:before {
+                color: @white;
+            }
+        }
+    }
+    &.disabled {
+        > span.checked:before {
+            color: darken(@secondary-green, 10%);
+        }
+    }
+
+}
+
+div.checker.mettel-checkbox-alt {
+    &:extend(.mettel-checkbox-defaults all);
+
+    background-color: @grey-05;
+    .border-radius(3px);
+
+    &.disabled {
+        background-color: @white;
+        border: 1px solid @grey-30;
+    }
+
+    > span {
+
+        &.checked {
+            &:before {
+                color: @grey-80;
+            }
+        }
+    }
+
+    &.disabled {
+        > span.checked:before {
+            color: @grey-30;
+        }
+    }
+
+}
+
+.mettel-checkbox-label {
+    .font-size(@base-font-size);
+}

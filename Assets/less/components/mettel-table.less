@@ -1,0 +1,54 @@
+// -------------------------------------------------------------------
+// MetTel Table Component Styles
+
+.mettel-table {
+    width: 100%;
+    table-layout: fixed;
+    empty-cells: show;
+}
+
+.mettel-table-column {
+
+}
+
+.mettel-table-column-count {
+    width: 125px;
+}
+
+.mettel-table-head {
+    background: @grey-10;
+}
+
+.mettel-table-head-cell {
+
+    &:extend(.mettel-table-cell all);
+
+    text-align: left;
+    .font-size(10);
+    line-height: 1;
+    font-family: @ProximaNovaBold;
+    text-transform: uppercase;
+    color: @grey-60;
+    text-shadow: 1px 1px rgba( 255, 255, 255, 0.4 );
+    border-right: 1px solid @grey-20;
+
+    &:last-child {
+        border-right: 0;
+    }
+
+}
+
+.mettel-table-footer {
+    background-color: @grey-80;
+    color: @white;
+}
+
+.mettel-table-footer-cell {
+    &:extend(.mettel-table-cell all);
+    .font-size(10);
+    line-height: 1;
+}
+
+.mettel-table-cell {
+    padding: 10px 15px;
+}

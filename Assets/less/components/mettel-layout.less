@@ -1,0 +1,90 @@
+// -------------------------------------------------------------------
+// MetTel One Column Layout Component Styles
+
+.mettel-content,
+.mettel-section {
+    width: 100%;
+    display: table;
+}
+
+.mettel-content {
+    min-height: 100%;
+}
+
+.mettel-section {
+    .box-sizing(border-box);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mettel-main-content,
+.mettel-hierarchy-menu,
+.mettel-sidebar-content,
+.mettel-column-one,
+.mettel-column-two ,
+.mettel-column-three,
+.mettel-sidebar-content,
+.mettel-main-content {
+    .box-sizing(border-box);
+    display: table-cell;
+    vertical-align: top;
+}
+
+.mettel-two-column-layout,
+.mettel-three-column-layout {
+    display: table;
+    width: 100%;
+}
+
+.mettel-two-column-layout {
+
+    .mettel-column-one,
+    .mettel-column-two {
+        width: 50%;
+    }
+
+
+}
+
+.mettel-three-column-layout {
+
+    .mettel-column-one,
+    .mettel-column-two ,
+    .mettel-column-three {
+        width: 33%;
+    }
+
+    .mettel-column-one {
+        border-right: 15px solid @white;
+    }
+
+    .mettel-column-two {
+        border-right: 15px solid @white;
+        border-left: 15px solid @white;
+    }
+
+    .mettel-column-three {
+        border-left: 15px solid @white;
+    }
+
+}
+
+.mettel-hierarchy-menu {
+    width: 70px;
+    border-right: 1px solid @grey-10;
+}
+
+.mettel-hierarchy-menu + .mettel-main-content {
+    .box-sizing(border-box);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: auto;
+}
+
+.mettel-sidebar-content {
+    width: 25%;
+}
+
+.mettel-main-content {
+    width: 75%;
+}

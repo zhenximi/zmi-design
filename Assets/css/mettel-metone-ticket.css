@@ -1,0 +1,8 @@
+﻿.mettel-header, .mettel-footer, .mettel-stepped-workflow-container, .mettel-edit-button, .next-action, .mettel-account-review-section-actions .mettel-primary-button {
+    display: none;
+}
+
+.mettel-page-inner {
+    bottom: 0px;
+    top: 0px;
+}

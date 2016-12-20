@@ -1,0 +1,136 @@
+// -------------------------------------------------------------------
+// MetTel Key Value List Component Styles
+
+.mettel-key-value-table-container {
+    border-bottom: 1px solid @grey-10;
+    .mettel-clearfix;
+    .mettel-value {
+        color: @secondary-green;
+        font-family: @ProximaNovaSemiBold;
+    }
+}
+.mettel-key-value-list,
+.mettel-key-value-list-column-1,
+.mettel-key-value-list-column-2 {
+    .mettel-clearfix;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.mettel-key-value-list-column-1,
+.mettel-key-value-list-column-2 {
+    float: left;
+}
+.mettel-key-value-list-row {
+    display: table;
+    list-style-type: none;
+    width: 100%;
+}
+
+.mettel-key {
+    .box-sizing(border-box);
+    display: table-cell;
+    width: 140px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: @grey-50;
+    text-align: right;
+    .font-size(@base-font-size);
+}
+
+.mettel-value {
+    display: table-cell;
+    .font-size(@base-font-size);
+    font-family: @ProximaNovaBold;
+    color: @grey-80;
+    padding-left: 10px;
+
+    .mettel-value-primary {
+        color: @secondary-light-blue;
+    }
+}
+.mettel-key-value-multiple {
+    .mettel-value {
+        display: block;
+    }
+}
+.mettel-key-value-header {
+    width: 100%;
+    position: relative;
+    background-color: @grey-10;
+    height: 30px;
+    .line-height(30);
+    margin-bottom: 10px;
+    .mettel-clearfix
+}
+.mettel-key-value-header-text,
+.mettel-key-value-header-text-alt {
+    color: @grey-50;
+    font-family: @ProximaNovaBold;
+    text-transform: uppercase;
+    .font-size(@base-font-size);
+    float: left;
+    padding-left: 15px;
+    margin: 0;
+}
+.mettel-key-value-header-text-alt {
+    font-family: @ProximaNovaRegular;
+    text-transform: none;
+}
+.mettel-key-value-header-button {
+    display: block;
+    float: right;
+    .font-size(@base-font-size);
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: @white;
+    border: 0;
+    cursor: pointer;
+    background-color: @grey-20;
+
+    &:before {
+        .font-size(20);
+    }
+}
+.mettel-key-value-header-secondary-text {
+    float: right;
+    color: @grey-50;
+    font-family: @ProximaNovaSemiBold;
+    .font-size(@base-font-size);
+    .line-height(35);
+    margin: 0 15px 0 0;
+
+    .mettel-value-count {
+        color: @secondary-green;
+    }
+}
+.mettel-key-value-contact-info {
+    width: 100%;
+    border-bottom: 1px solid @grey-10;
+    padding: 5px 45px;
+    .box-sizing(border-box);
+    color: @grey-80;
+    .line-height(25);
+    position: relative;
+
+    &.mettel-key-value-select-row {
+        padding-left: 5px;
+    }
+    &.mettel-info-primary {
+        font-family: @ProximaNovaSemiBold;
+        color: @secondary-light-blue;
+    }
+    div.mettel-combo-box {
+        width: 75%;
+    }
+    &:before {
+        .font-size(21);
+        color: @grey-50;
+        margin: 0 10px;
+        position: absolute;
+        left: 5px;
+    }
+}

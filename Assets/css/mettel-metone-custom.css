@@ -1,0 +1,335 @@
+﻿@media screen and (min-width:0\0) {
+
+    .mettel-input-custom {
+        display: table-cell !important;
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        width: 326px !important;
+    }
+
+    .mettel-input-custom2 {
+        display: table-cell !important;
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        /*width:326px !important;*/
+        width: 390px !important;
+        margin-left: 3px !important;
+        float: left;
+    }
+    .mettel-label-custom2 {
+        float: left;
+        width: 277px;
+    }
+    .mettel-textarea{
+        display: table-cell !important;
+    }   
+    #client_search .mettel-search > input {
+        display: table-cell !important;                     
+    }
+    #client_search .mettel-search > button {
+       padding-top:9px !important;
+       background:white !important;
+       border:1px solid #ccc;                  
+    }    
+    .mettel-label-custom-desc {
+        width:118px !important;      
+        margin-right:15px !important; 
+    }
+    .mettel-value{             
+       display: inline-block !important;             
+    }
+    #publishedLabel, #accessLabel {           
+        float:left;
+        margin-top:7px !important;
+    }
+ }
+
+.mettel-group-builder-header-custom {
+    padding-bottom: 2px !important;
+    margin-bottom: 2px !important;
+}
+.mettel-button-icon-delete-custom {
+    background: none !important;
+    float: right !important;
+}
+.mettel-input-custom3 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    width: 85%;
+    display: block !important;
+}
+.mettel-grid-group-builder .mettel-grid-column-item {
+    margin-bottom: 6px !important;
+}
+
+.mettel-grid-footer {
+    position: fixed;
+    z-index: 99;
+    bottom: 32px;
+    left: 0px;
+}
+.mettel-grid-group-builder {
+    top: 0px !important;
+    height: 100%;
+}
+.report-field-width, .mettel-search-input {
+    width: 400px;
+}
+.mettel-search-input {
+     width: 372px;
+}
+.mettel-search-input-custom {
+     width: auto !important;
+}
+/* safari specific rule*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  ::i-block-chrome, .mettel-open-tickets .mettel-open-tickets-content-inner {
+  display:block !important;
+  
+}
+    
+    /* Safari 5+ ONLY */
+    ::i-block-chrome, .mettel-open-tickets .mettel-open-ticket-module {
+    float:left;
+    }
+    ::i-block-chrome, .report-pricing-row .mettel-radio-label, .report-pricing-row .mettel-input {      
+      display:table-cell;               
+    }
+    ::i-block-chrome, .mettel-label-customlabel, .report-pricing-row .mettel-input {
+      margin-top:-13px !important;   
+    }          
+     ::i-block-chrome, .mettel-help-desk-section {
+      display: table-cell;
+    }  
+    ::i-block-chrome, .mettel-grid-column-billing-period {
+      width:140px !important;
+    }
+    ::i-block-chrome, .mettel-typeahead-list{
+        width:316px !important;
+    }
+    ::i-block-chrome, .mettel-typeahead-list-item {
+        width:316px !important;
+    }
+    ::i-block-chrome, .mettel-global-search-no-results-text {
+        clear:both;
+    }
+    ::i-block-chrome, .mettel-grid-column-pdf, .mettel-grid-column-age {
+        width:auto !important;
+    }  
+     ::i-block-chrome, .mettel-content.mettel-content-scrolling {
+        display: table !important;     
+    }
+
+    ::i-block-chrome, #grid_filter .mettel-toggle-label-toggle, .mettel-help-desk-section .mettel-toggle-label-toggle{
+        left:0px !important;
+    }  
+     
+}
+#mettel_page .mettel-form-row label.mettel-input {
+    width:70px;
+}
+#assets_edit_line_description .mettel-modal-content {
+    height:400px !important;
+}
+
+/* Notifications - new mail */
+
+.new-mail {
+    width: 300px;
+    height: 100px;
+}
+
+.new-mail img {
+    float: left;
+    margin: 30px 15px 30px 30px;
+}
+
+.new-mail h3 {
+    font-size: 1em;
+    padding: 32px 10px 5px;
+    margin:0;
+}
+
+.new-mail p {
+    margin:0;
+}
+
+.k-notification {
+    border: 0;
+}
+
+.k-notification-error.k-group {
+    background: rgba(100%,0%,0%,.7);
+    color: #ffffff;
+}
+
+.k-notification-info.k-group {
+    background: rgba(0%,0%,0%,.7);
+    color: #fff;
+}
+
+.k-notification-success.k-group {
+    background: rgba(0%,60%,0%,.7);
+    color: #fff;
+}
+
+/* New Ticket Modal */
+
+.line-validation .mettel-input{
+    width:300px;
+}
+
+.line-validation .mettel-combo-box.fixedWidth{
+    width:280px;
+}
+
+.line-validation .mettel-search-input{
+    width:260px;
+}
+
+#ticket_contact_validation .mettel-typeahead-container {
+    overflow: auto;
+    height: 220px;
+    text-align: left;
+}
+
+#ticket_contact_validation .mettel-modal-content {
+    height:420px;
+}
+
+#ticket_contact_validation .mettel-modal-content .ticket-contact-form {
+    width: 60%;
+    margin: 25px auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+#ticket_contact_validation .view-user-link {
+        margin: 10px 0;
+    display: inline-block;
+    width: 80px;
+}
+
+#inline_new_user .mettel-input,#new_user_modal .mettel-input{
+    width:300px;
+}
+
+#inline_new_user .mettel-combo-box.fixedWidth,#new_user_modal .mettel-combo-box.fixedWidth{
+    width:280px;
+    margin-left: 5px;
+}
+
+#inline_new_user .mettel-search-input{
+    width:260px;
+}
+
+#existing_repair_tickets_grid .mettel-grid-column-tickets ul li {
+    display: inline-block;
+}
+
+/* Location Tickets */
+
+#location_site_label_dialog .fixedWidth {
+    width: 400px;
+}
+
+#location_site_label_dialog .mettel-fieldset {
+    padding-right: 0;
+}
+
+#site_contacts_select .mettel-fieldset {
+    margin: 15px auto;
+    width: 400px;
+    padding-right: 0;
+}
+
+#site_contacts_select .mettel-typeahead-list {
+    overflow: auto;
+    height: 300px;
+}
+
+#location_access_hours_dialog .mettel-combo-box {
+    width: auto;
+}
+#location_addressValidation_form {
+    text-align:left;
+}
+#location_addressValidation_form input[type=text], #location_addressValidation_form .fixedWidth {
+    width: 400px;
+}
+
+/* Modify Service */
+
+.mettel-modify-service-container .mettel-form-row .mettel-label {
+    vertical-align: middle;
+}
+
+.mettel-modify-service-container .access-hours-modal-content {
+    text-align: left;
+    padding: 10px;
+}
+
+.mettel-modify-service-container .time-days li {
+    float: left;
+    width: 20px;
+    background: #efefef;
+    padding: 5px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mettel-modify-service-container .time-days li:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mettel-modify-service-container .time-days li:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.mettel-modify-service-container .time-days .selected-day {
+    background: #2cb0ed;
+    color: white;
+}
+
+.mettel-modify-service-container .access-hours-list {
+    color: #8ac008;
+    font-family: 'ProximaNovaSemiBold', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif;
+}
+
+.mettel-modify-service-container .access-hours-modal-content .item-action {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.mettel-modify-service-container .access-hours-modal-content th {
+    color: #999;
+}
+
+.mettel-modify-service-container .access-hours-modal-content td {
+    padding: 10px 0px;
+    border-bottom: 1px solid #efefef;
+}
+
+.mettel-modify-service-container .access-hours-list {
+    margin-right: 20px;
+    float: left;
+}
+
+.mettel-modify-service-container .access-hours-item {
+    clear: both;
+    float: left;
+    margin: 5px;
+}
+
+.mettel-modify-service-container .access-day {
+    float: left;
+    width: 100px;
+}
+
+.mettel-modify-service-container .access-time {
+    float: left;
+}
